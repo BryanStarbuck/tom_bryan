@@ -1,0 +1,82 @@
+ROOT_DIR dir is ~/BGit/Bryan_git/tom_bryan/broker
+
+
+GOALS — FIND A BROKER TO HELP TOM STARBUCK GET A SENIOR APARTMENT
+
+This file explains what this directory is for and what we are building over time.
+Everything starts here. As the work grows, we add a brokers.csv and a docs directory.
+
+
+===========================
+WHO AND WHY
+
+* Tom Starbuck is Bryan's dad. We are helping him find an apartment.
+* The apartment search lives in the sibling directory ~/BGit/Bryan_git/tom_bryan/apartment/
+* THIS directory is about finding a real estate / apartment broker who helps locate
+  apartments, especially a broker who specializes in helping seniors.
+* Goal: build a list of candidate brokers to contact, and the supporting knowledge
+  about why a broker helps and how to get more access through them.
+
+
+===========================
+THE BROKER LIST — brokers.csv  (to be created)
+
+* We will eventually build a brokers.csv in {ROOT_DIR}.
+* It holds candidate brokers we can contact.
+* We want to find a number of brokers, not just one.
+* We care most that they specialize in seniors / senior housing.
+
+Location requirements (the broker should serve these areas):
+  HIGHEST PRIORITY (far greater priority):
+    * Redmond, WA
+    * Bellevue, WA
+    * Kirkland, WA
+  ALSO ACCEPTABLE:
+    * Factoria, WA   (district within Bellevue)
+    * Issaquah, WA
+    * Woodinville, WA
+
+  NOTE: Two of the city names above came from voice transcription and were unclear.
+  Best interpretation used: "Factorio" -> Factoria (a Bellevue district), and
+  "Ithacol" -> Issaquah. Bryan to confirm or correct these two.
+
+Planned brokers.csv columns (draft — refine as we learn more):
+  * Broker_Name
+  * Company
+  * City
+  * Serves_Areas
+  * Senior_Specialist   (yes / no / partial)
+  * Phone
+  * Email
+  * Website
+  * Source              (where we found them)
+  * Notes
+  * Status              (use bracket notation: [     ] [TO-CALL] [CONTACTED] [ DONE])
+
+
+===========================
+THE KNOWLEDGE — docs/  (to be created)
+
+We will add a docs directory at {ROOT_DIR}/docs with MDX files covering these topics:
+
+  * Why does it seem like brokers are needed?
+  * How can a broker get us more access (to apartments / listings)?
+  * Are there laws about this (broker access, senior housing, fair housing)?
+  * Is there guidance about this, especially for seniors?
+  * Why can some places lock people out unless they come through a broker?
+
+Each topic gets its own MDX file under {ROOT_DIR}/docs.
+
+
+===========================
+STATUS
+
+* [ DONE] goals_broker.txt created (this file)
+* [ DONE] p_FIND_BROKERS.md prompt created
+* [ DONE] brokers.csv built with candidate brokers (13 brokers; 8 HIGH priority)
+* [     ] docs/ directory with MDX files for the knowledge topics above
+* [     ] Confirm the two uncertain cities (Factoria? Issaquah?)
+* [     ] Note: most candidates are senior PLACEMENT advisors (assisted living /
+          care communities / independent living). If Tom wants a standard rental
+          apartment, confirm each broker also handles independent-living/rental
+          placement, not only assisted living.

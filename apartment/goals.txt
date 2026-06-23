@@ -1,0 +1,68 @@
+ROOT_DIR dir is ~/BGit/Bryan_git/tom_bryan/apartment
+
+GOAL: Find an apartment for Tom Starbuck (about 84 years old), Bryan's dad.
+
+APARTMENTS_FILE is file {ROOT_DIR}/apartments.csv
+INDEPENDENT_LIVING_FILE is file {ROOT_DIR}/independent_living.csv
+
+EPICENTER_1 is the value = the 405/520 intersection (I-405 and SR-520), Bellevue WA
+EPICENTER_2 is the value = 16430 Northeast 50th Street, Redmond, Washington 98052
+
+
+====================================================================
+WHAT WE WANT
+====================================================================
+
+* Find an apartment for Tom. He is about 84.
+* We want SENIOR APARTMENTS.
+* We do NOT need Assisted Living or anything like that.
+* We prefer plain senior apartments OVER senior independent living.
+  * Senior independent living options go in a separate file
+    ({INDEPENDENT_LIVING_FILE}), not the main list.
+
+
+====================================================================
+PREFERRED LOCATIONS (in priority order)
+====================================================================
+
+* We care that listings are HIGHER (ranked better) in these locations,
+  in this priority order:
+  1. Bellevue or Redmond  (most preferred)
+  2. Kirkland
+  3. Factoria
+  4. Woodinville
+  5. Issaquah
+
+
+====================================================================
+CRITERIA (what we score each apartment on)
+====================================================================
+
+* RENT
+  * We prefer rent around $1,300/month.
+  * It is LESS interesting as price climbs toward $3,000/month.
+  * Price is one of the main criteria.
+
+* DISTANCE TO EPICENTER_1 (the 405/520 intersection)
+  * The closer in distance, the better.
+
+* DISTANCE TO EPICENTER_2 (16430 NE 50th St, Redmond, WA 98052)
+  * The closer in distance, the better.
+
+* How close it is to EITHER epicenter, in distance, is important.
+
+
+====================================================================
+OUTPUT FILES
+====================================================================
+
+* {APARTMENTS_FILE}
+  * The main list. Senior apartments (not independent living).
+
+* {INDEPENDENT_LIVING_FILE}
+  * Senior independent living options. Lower preference, kept separate.
+
+* Both CSVs share the same columns so they can be compared.
+  Columns:
+    name,city,address,monthly_rent,bedrooms,senior_type,
+    miles_to_405_520,miles_to_redmond_address,phone,website,notes
