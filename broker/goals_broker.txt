@@ -57,15 +57,15 @@ Planned brokers.csv columns (draft — refine as we learn more):
 ===========================
 THE KNOWLEDGE — docs/  (to be created)
 
-We will add a docs directory at {ROOT_DIR}/docs with MDX files covering these topics:
+The docs directory at {ROOT_DIR}/docs holds one markdown file per topic:
 
-  * Why does it seem like brokers are needed?
-  * How can a broker get us more access (to apartments / listings)?
-  * Are there laws about this (broker access, senior housing, fair housing)?
-  * Is there guidance about this, especially for seniors?
-  * Why can some places lock people out unless they come through a broker?
-
-Each topic gets its own MDX file under {ROOT_DIR}/docs.
+  * 01-why-brokers-are-needed.md      — Why does it seem like brokers are needed?
+  * 02-locked-out-without-a-broker.md — Why locked out of apartments without one?
+  * 03-senior-apartment-types.md      — The senior apartment / housing types.
+  * 04-regulations.md                 — Laws (RCW 18.330, fair housing, licensing).
+  * 05-why-apartments-use-brokers.md  — Why communities use brokers (referral fees).
+  * 06-washington-king-county.md      — What is unique about WA / King County.
+  * README.md                         — Index of the above.
 
 
 ===========================
@@ -74,7 +74,7 @@ STATUS
 * [ DONE] goals_broker.txt created (this file)
 * [ DONE] p_FIND_BROKERS.md prompt created
 * [ DONE] brokers.csv built with candidate brokers (13 brokers; 8 HIGH priority)
-* [     ] docs/ directory with MDX files for the knowledge topics above
+* [ DONE] docs/ directory with markdown files for the knowledge topics above
 * [     ] Confirm the two uncertain cities (Factoria? Issaquah?)
 * [     ] Note: most candidates are senior PLACEMENT advisors (assisted living /
           care communities / independent living). If Tom wants a standard rental
