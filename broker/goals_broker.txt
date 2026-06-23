@@ -73,7 +73,7 @@ STATUS
 
 * [ DONE] goals_broker.txt created (this file)
 * [ DONE] p_FIND_BROKERS.md prompt created
-* [ DONE] brokers.csv built with candidate brokers (13 brokers; 8 HIGH priority)
+* [ DONE] brokers.csv built with candidate brokers (17 brokers; 11 HIGH priority)
 * [ DONE] docs/ directory with markdown files for the knowledge topics above
 * [     ] Confirm the two uncertain cities (Factoria? Issaquah?)
 * [     ] Note: most candidates are senior PLACEMENT advisors (assisted living /
