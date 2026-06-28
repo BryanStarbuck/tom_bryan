@@ -1,0 +1,283 @@
+====================================================================
+BIG PICTURE - READ THIS FIRST
+====================================================================
+
+* The apartments in this folder are NOT all on one program. They split across
+  several different government programs, and each program has its OWN income
+  limit. So there is more than one income threshold. They are listed in their
+  own sections below.
+
+* ALL of the income limits are tied to King County "Area Median Income" (AMI),
+  published every year by HUD. The programs differ mainly in WHICH percent of
+  AMI they cap you at (30%, 50%, 60%, or 80%).
+
+* The income that counts is the WHOLE HOUSEHOLD'S gross annual income from all
+  sources - Social Security PLUS both pensions all count. They are added
+  together.
+
+* KEY TAKEAWAY (explained in detail at the bottom): Tom's estimated combined
+  retirement income is roughly $90,000/year. That is ABOVE almost every limit
+  below. So Tom most likely does NOT income-qualify for the subsidized units -
+  he qualifies for the MARKET-RATE senior apartments (no income cap). This is
+  the single most important conclusion in this document.
+
+
+====================================================================
+KING COUNTY INCOME LIMITS - THE NUMBERS (effective April 1, 2025)
+====================================================================
+
+These are the gross-annual-income caps. Tom alone = a 1-PERSON household. If he
+moved in with someone, use the 2-person column.
+
+  Percent of AMI       1 Person        2 Person
+  ------------------   -----------     -----------
+  30% AMI              $33,050         $37,750
+  50% AMI              $55,000         $62,850
+  60% AMI              $66,000         $75,420
+  80% AMI (approx)     ~$84,150        ~$96,150
+
+* 30% AMI = "Extremely Low Income"
+* 50% AMI = "Very Low Income"
+* 60% AMI = the common tax-credit ceiling
+* 80% AMI = "Low Income" (the highest cap any of these programs uses)
+
+(80% figures are approximate - HUD rounds them slightly differently year to year.
+The 30/50/60% figures are the published King County numbers.)
+
+
+====================================================================
+SECTION 1 - PROGRAM: HUD SECTION 202 (Supportive Housing for the Elderly)
+====================================================================
+
+* What it is: Federal program, buildings built specifically for low-income
+  seniors 62+. Rent is set at 30% of the tenant's monthly income (so rent goes
+  up or down with income).
+
+* Income limit: Must be at or below 50% AMI to get in.
+    1 person: $55,000/yr     2 person: $62,850/yr
+
+* Apartments in this folder on this program (or HUD-subsidized like it):
+    - Emma McRedmond Manor (Redmond)
+    - Issaquah Gardens (Issaquah)
+    - Elbert House (Bellevue) - states "must be <= 50% median income"
+    - Hutchison House (Issaquah)
+    - Marcus Place / Catholic Housing Services (Bellevue)
+
+
+====================================================================
+SECTION 2 - PROGRAM: PROJECT-BASED SECTION 8 (HUD)
+====================================================================
+
+* What it is: The subsidy is attached to the building. Tenant pays about 30% of
+  income for rent; HUD covers the rest. Some of these also accept a Section 8
+  Housing Choice Voucher.
+
+* Income limit: At or below 50% AMI to qualify (80% AMI is the absolute legal
+  ceiling, but in practice these target 50% and below).
+    1 person: $55,000/yr (50% AMI)     2 person: $62,850/yr
+
+* Apartments in this folder on this program:
+    - Kirkland Plaza (Imagine Housing) - "project-based Sec 8 <50% AMI"
+    - Providence John Gabriel House (Redmond) - HUD, income <60% AMI
+    - Bellepark East (Bellevue) - accepts Section 8
+    - Greenbrier Heights (Woodinville) - accepts Section 8
+    - Casa Juanita (Kirkland) - Section 8 accepted
+
+
+====================================================================
+SECTION 3 - PROGRAM: KCHA PUBLIC / SUBSIDIZED HOUSING
+        (King County Housing Authority - the "206-574-xxxx" and kcha.org units)
+====================================================================
+
+* What it is: Housing the county housing authority owns or subsidizes. Rent is
+  generally income-based (about 30% of income). Most of the income-based units
+  in this folder are these.
+
+* Income limit: Admission cap is 80% AMI, but these are TARGETED to very-low and
+  extremely-low income, so realistically you need to be at or below 50% AMI to
+  have a real chance, and many prioritize 30% AMI.
+    Admission ceiling - 1 person: ~$84,150/yr (80% AMI)
+    Realistic target  - 1 person: $55,000/yr (50% AMI) or below
+
+* Apartments in this folder on this program (KCHA):
+    - Patricia Harris Manor, Forest Glen, Forest Grove, Avondale Manor,
+      Parkway (all Redmond)
+    - Bellevue Manor, Spiritwood Manor (Bellevue)
+    - Kirkland Place, Slater Park, Plum Court, Village Plaza, Kirkwood Terrace,
+      Juanita Court, Cedarwood (Kirkland)
+    - Eastridge House (Issaquah)
+    - Vantage Point, Glenview Heights, Vista Heights (Renton)
+    - Wells Wood (Woodinville)
+
+* NOTE: Many of these have closed waitlists or are "not accepting applications."
+
+
+====================================================================
+SECTION 4 - PROGRAM: LIHTC TAX-CREDIT (Low-Income Housing Tax Credit)
+====================================================================
+
+* What it is: Privately owned "affordable" buildings financed with tax credits.
+  Rent is a FIXED below-market amount (not 30%-of-income), but you must income-
+  qualify to move in. This is the program with the most generous cap (60% AMI).
+
+* Income limit: At or below 60% AMI (some units restricted to 50% or 30%).
+    1 person: $66,000/yr (60% AMI)     2 person: $75,420/yr
+    Lower-tier units: $55,000 (50%) or $33,050 (30%) - 1 person
+
+* Apartments in this folder on this program:
+    - Ashwood Court Senior Apartments (Bellevue) - tax-credit 62+
+    - Woodlands at Forbes Lake (Kirkland) - income/age restricted
+    - Ardea Senior Apartments (Kirkland) - 62+ tax-credit
+    - Athene Senior Housing (Kirkland) - 30-60% AMI
+    - Vasa Creek Woods (Bellevue) - income-restricted 62+
+    - Greenbrier Heights (Woodinville) - 30/50/60% AMI tiers
+    - Providence John Gabriel House (Redmond) - income <60% AMI
+
+
+====================================================================
+SECTION 5 - PROGRAM: ARCH INCOME-RESTRICTED (local Eastside affordable set-aside)
+====================================================================
+
+* What it is: "A Regional Coalition for Housing" - Eastside cities require some
+  units in newer market-rate buildings to be set aside as affordable. Caps vary
+  by building, usually 60% to 80% AMI.
+
+* Income limit: typically 60% AMI, sometimes up to 80% AMI.
+    1 person: $66,000/yr (60%) up to ~$84,150/yr (80%)
+
+* Apartments in this folder on this program:
+    - Reunion at Redmond Ridge (Redmond) - 285 of 321 units are ARCH income-
+      restricted; the rest are full market-rate.
+
+
+====================================================================
+SECTION 6 - MARKET-RATE SENIOR APARTMENTS (NO INCOME LIMIT)
+====================================================================
+
+* What it is: Regular senior apartments with no government subsidy and NO income
+  cap. Anyone who can afford the rent qualifies. Given Tom's income (below),
+  THIS is the category he most likely actually qualifies for.
+
+* Income limit: NONE.
+
+* Apartments in this folder with no income cap:
+    - Brandenwood Senior Apartments (Bellevue) - 62+, rent $1,655+
+    - Crossroads Active Senior Community / SHAG (Bellevue) - 55+, $1,750-2,500
+    - Park Plaza Apartments (Bellevue) - 55+, $3,700
+    - Reunion at Redmond Ridge (Redmond) - the 36 non-ARCH market units
+
+
+====================================================================
+RESIDENCY REQUIREMENT - DOES TOM HAVE TO BE A WASHINGTON RESIDENT?
+====================================================================
+
+* NO long-time-state-residency requirement. You do NOT have to have lived in
+  Washington (or King County) for any length of time to apply or qualify for
+  these programs. KCHA confirms applicants can apply from anywhere - you are not
+  required to already live in the county.
+
+* Caveat - PREFERENCE vs REQUIREMENT: Some waitlists give a "local preference"
+  (people who already live or work in the area move up the list faster). That is
+  a tie-breaker that affects HOW FAST you get in, NOT whether you are eligible.
+  Tom coming from out of state can still apply and qualify; he just may not get
+  the local-preference bump on certain waitlists.
+
+* Bottom line: Residency is NOT a barrier for Tom. Income (above) is the real
+  gate.
+
+
+====================================================================
+TOM STARBUCK - ESTIMATED MONTHLY INCOME
+====================================================================
+
+These are ESTIMATES based on typical formulas, not Tom's actual statements. For
+the real numbers we need his Social Security award letter and his two pension
+statements. Assumptions: Tom is ~83, treated as a 1-person household.
+
+* IMPORTANT NOTE ON CALIFORNIA LAW-ENFORCEMENT PENSIONS:
+  Many California police/sheriff jobs did NOT pay into Social Security (the
+  pension replaced it). That used to REDUCE the Social Security a person could
+  draw (the "Windfall Elimination Provision"). That reduction was REPEALED by
+  the Social Security Fairness Act (signed Jan 2025). So as of 2026 Tom's
+  Social Security is NOT cut by his government pensions.
+
+--------------------------------------------------------------------
+1) SOCIAL SECURITY (assumed age 83)
+--------------------------------------------------------------------
+* The 2026 average retired-worker benefit is about $2,071/month.
+* If much of Tom's career was non-Social-Security-covered law enforcement, his
+  own SS record may be thinner than average; if he had other covered work it
+  could be near or above average.
+* ESTIMATE: about $1,900/month (reasonable range $1,500 - $2,300/month).
+
+--------------------------------------------------------------------
+2) LA COUNTY SHERIFF'S DEPARTMENT - 23 years (LACERA pension)
+--------------------------------------------------------------------
+* LACERA "safety" member. Older safety plans earn roughly 2% to 2.6% of final
+  pay per year of service. 23 years -> roughly 50-60% of final average pay.
+* Final pay for a retired deputy/sergeant (retiring decades ago) might have been
+  ~$70,000-$90,000/year, then grown by years of cost-of-living raises.
+* ESTIMATE today: about $3,800/month (range $3,300 - $4,600/month).
+
+--------------------------------------------------------------------
+3) OCEANSIDE POLICE DEPARTMENT - 13 years (CalPERS pension)
+--------------------------------------------------------------------
+* CalPERS local-safety member. Safety formula ~2.5% to 3% per year of service.
+  13 years -> roughly 33-39% of final average pay.
+* Final pay ~$60,000-$85,000/year, then grown by cost-of-living raises.
+* ESTIMATE today: about $2,000/month (range $1,700 - $2,600/month).
+
+--------------------------------------------------------------------
+TOTAL ESTIMATED MONTHLY INCOME
+--------------------------------------------------------------------
+* Point estimate:  ~$7,700/month  =  ~$92,000/year
+* Reasonable range: ~$6,500 - $9,500/month  =  ~$78,000 - $114,000/year
+
+
+====================================================================
+WHAT THIS MEANS - DOES TOM QUALIFY?
+====================================================================
+
+* Tom's estimated ~$92,000/year is ABOVE every subsidized income limit:
+    - Above 30% AMI ($33,050) ............ does NOT qualify
+    - Above 50% AMI ($55,000) ............ does NOT qualify (HUD 202, Sec 8)
+    - Above 60% AMI ($66,000) ............ does NOT qualify (tax-credit)
+    - Above ~80% AMI (~$84,150) .......... does NOT qualify (KCHA ceiling)
+
+* So for Sections 1-5, Tom most likely does NOT income-qualify. The subsidized
+  senior apartments are designed for incomes roughly half of Tom's estimated
+  income.
+
+* Tom DOES qualify for SECTION 6 - the MARKET-RATE senior apartments (no income
+  cap): Brandenwood, Crossroads/SHAG, Park Plaza, and the market units at
+  Reunion at Redmond Ridge. He can comfortably afford these.
+
+* EXCEPTIONS WORTH CHECKING BY PHONE:
+    - If Tom's actual income is at the LOW end of the estimate (closer to
+      $66,000/year or below), the 60% AMI TAX-CREDIT units (Section 4) could be
+      back in reach. Worth confirming his real numbers first.
+    - Some buildings count income differently (e.g., a portion of assets vs.
+      actual draw). Always verify with the specific building's manager.
+
+* ACTION ITEM: Get Tom's three real figures (SS award letter + LACERA statement
+  + CalPERS statement). If the true total is under ~$66,000/year, re-open the
+  tax-credit list. If it is ~$90,000 as estimated, focus on the Section 6
+  market-rate senior apartments.
+
+
+====================================================================
+SOURCES
+====================================================================
+* King County 2025 Income & Rent Limits (HUD AMI):
+  https://www.huduser.gov/portal/datasets/il.html
+  https://www.kcha.org/housing/subsidized/eligibility
+* King County 2025 LIHTC income limits:
+  https://westmontadvisors.com/hudincomedata2025/2025-lihtc-income-limits-king-county-wa/
+* KCHA residency / who can apply:
+  https://www.kcha.org/housing/subsidized/apply
+* Social Security 2026 average benefit / COLA:
+  https://www.ssa.gov/news/en/cola/factsheets/2026.html
+* LACERA safety retirement formulas:
+  https://www.lacera.gov/plan/safety-ab/plan-book/calculating-your-retirement-allowance
+* CalPERS local safety benefit factors:
+  https://www.calpers.ca.gov/members/retirement-benefits/benefit-factor-charts
