@@ -15,11 +15,15 @@ BIG PICTURE - READ THIS FIRST
   sources - Social Security PLUS both pensions all count. They are added
   together.
 
-* KEY TAKEAWAY (explained in detail at the bottom): Tom's estimated combined
-  retirement income is roughly $90,000/year. That is ABOVE almost every limit
-  below. So Tom most likely does NOT income-qualify for the subsidized units -
-  he qualifies for the MARKET-RATE senior apartments (no income cap). This is
-  the single most important conclusion in this document.
+* KEY TAKEAWAY (explained in detail at the bottom): Tom's EXACT combined
+  retirement income is $67,265/year (now confirmed, not estimated). That lands
+  him in a much better spot than the old ~$90,000 estimate: he is BELOW the 80%
+  AMI cap ($84,150), so he DOES income-qualify for the 80% AMI programs (KCHA
+  admission ceiling, ARCH 80%-tier units) AND the market-rate senior apartments.
+  He is only $1,265 OVER the 60% AMI tax-credit line ($66,000) - so close it is
+  worth a phone call, and as a 2-person household he would clear it. He is still
+  above the 50% and 30% AMI caps, so the deepest-subsidy units stay out of reach.
+  This is the single most important conclusion in this document.
 
 
 ====================================================================
@@ -56,6 +60,9 @@ SECTION 1 - PROGRAM: HUD SECTION 202 (Supportive Housing for the Elderly)
 * Income limit: Must be at or below 50% AMI to get in.
     1 person: $55,000/yr     2 person: $62,850/yr
 
+* TOM'S STATUS: does NOT qualify. His $67,265 is above the $55,000 (50% AMI)
+  cap by ~$12,265.
+
 * Apartments in this folder on this program (or HUD-subsidized like it):
     - Emma McRedmond Manor (Redmond)
     - Issaquah Gardens (Issaquah)
@@ -75,6 +82,12 @@ SECTION 2 - PROGRAM: PROJECT-BASED SECTION 8 (HUD)
 * Income limit: At or below 50% AMI to qualify (80% AMI is the absolute legal
   ceiling, but in practice these target 50% and below).
     1 person: $55,000/yr (50% AMI)     2 person: $62,850/yr
+
+* TOM'S STATUS: realistically does NOT qualify. His $67,265 is above the
+  $55,000 (50% AMI) target these buildings actually fill from. He is under the
+  80% legal ceiling, so it is not an absolute bar - but in practice these go to
+  50%-and-below applicants first, so treat this as a no. (Note: Providence John
+  Gabriel House is listed at <60% AMI = $66,000; Tom is $1,265 over even that.)
 
 * Apartments in this folder on this program:
     - Kirkland Plaza (Imagine Housing) - "project-based Sec 8 <50% AMI"
@@ -98,6 +111,13 @@ SECTION 3 - PROGRAM: KCHA PUBLIC / SUBSIDIZED HOUSING
   have a real chance, and many prioritize 30% AMI.
     Admission ceiling - 1 person: ~$84,150/yr (80% AMI)
     Realistic target  - 1 person: $55,000/yr (50% AMI) or below
+
+* TOM'S STATUS: income-ELIGIBLE to apply. His $67,265 is UNDER the 80% AMI
+  admission ceiling ($84,150), so he legally qualifies to get on these
+  waitlists. BUT these units are targeted to 50%-AMI-and-below (many prioritize
+  30% AMI), so his priority would be low and the wait long. Worth applying to as
+  a backup, but do not count on it. Also note many of these waitlists are
+  currently closed (see below).
 
 * Apartments in this folder on this program (KCHA):
     - Patricia Harris Manor, Forest Glen, Forest Grove, Avondale Manor,
@@ -124,6 +144,18 @@ SECTION 4 - PROGRAM: LIHTC TAX-CREDIT (Low-Income Housing Tax Credit)
     1 person: $66,000/yr (60% AMI)     2 person: $75,420/yr
     Lower-tier units: $55,000 (50%) or $33,050 (30%) - 1 person
 
+* TOM'S STATUS: does NOT qualify as a 1-person household - but only by $1,265.
+  His $67,265 is just over the $66,000 (60% AMI) line. This is the closest call
+  in the whole document and is WORTH A PHONE CALL to each building, because:
+    - As a 2-PERSON household the 60% cap is $75,420, which Tom clears easily.
+      (His income figures include "Mom's retirement," so if Mom would live with
+      him this is a 2-person household and these units OPEN UP.)
+    - Buildings count income differently; some use a slightly different period
+      or exclude certain items, which could bring him under $66,000.
+  CALL these and ask: Brandenwood is not here, but Ashwood Court, Woodlands at
+  Forbes Lake, Ardea, Athene, Vasa Creek Woods, Greenbrier Heights, and
+  Providence John Gabriel House are all worth a direct call.
+
 * Apartments in this folder on this program:
     - Ashwood Court Senior Apartments (Bellevue) - tax-credit 62+
     - Woodlands at Forbes Lake (Kirkland) - income/age restricted
@@ -145,6 +177,13 @@ SECTION 5 - PROGRAM: ARCH INCOME-RESTRICTED (local Eastside affordable set-aside
 * Income limit: typically 60% AMI, sometimes up to 80% AMI.
     1 person: $66,000/yr (60%) up to ~$84,150/yr (80%)
 
+* TOM'S STATUS: QUALIFIES for the 80% AMI tier. His $67,265 is well under the
+  ~$84,150 (80% AMI) cap. He does NOT qualify for the stricter 60%-AMI ARCH
+  units (he is $1,265 over $66,000), but any ARCH unit set at the 80% AMI level
+  is open to him. When you call Reunion at Redmond Ridge, ask specifically which
+  AMI tier each available income-restricted unit is set at - aim for the 80%
+  units.
+
 * Apartments in this folder on this program:
     - Reunion at Redmond Ridge (Redmond) - 285 of 321 units are ARCH income-
       restricted; the rest are full market-rate.
@@ -159,6 +198,12 @@ SECTION 6 - MARKET-RATE SENIOR APARTMENTS (NO INCOME LIMIT)
   THIS is the category he most likely actually qualifies for.
 
 * Income limit: NONE.
+
+* TOM'S STATUS: QUALIFIES. With no income cap, the only question is whether Tom
+  can afford the rent. On $67,265/year (~$5,605/month) he can comfortably afford
+  Brandenwood ($1,655+) and Crossroads/SHAG ($1,750-2,500); Park Plaza ($3,700)
+  is affordable but takes a large share of monthly income. This category is his
+  most reliable fallback - nothing here can disqualify him on income.
 
 * Apartments in this folder with no income cap:
     - Brandenwood Senior Apartments (Bellevue) - 62+, rent $1,655+
@@ -186,83 +231,68 @@ RESIDENCY REQUIREMENT - DOES TOM HAVE TO BE A WASHINGTON RESIDENT?
   gate.
 
 
+
 ====================================================================
-TOM STARBUCK - ESTIMATED MONTHLY INCOME
+TOM STARBUCK - EXACT YEARLY  INCOME
 ====================================================================
 
-These are ESTIMATES based on typical formulas, not Tom's actual statements. For
-the real numbers we need his Social Security award letter and his two pension
-statements. Assumptions: Tom is ~83, treated as a 1-person household.
+This is not estimated yearly income but exact numbers:
 
-* IMPORTANT NOTE ON CALIFORNIA LAW-ENFORCEMENT PENSIONS:
-  Many California police/sheriff jobs did NOT pay into Social Security (the
-  pension replaced it). That used to REDUCE the Social Security a person could
-  draw (the "Windfall Elimination Provision"). That reduction was REPEALED by
-  the Social Security Fairness Act (signed Jan 2025). So as of 2026 Tom's
-  Social Security is NOT cut by his government pensions.
 
---------------------------------------------------------------------
-1) SOCIAL SECURITY (assumed age 83)
---------------------------------------------------------------------
-* The 2026 average retired-worker benefit is about $2,071/month.
-* If much of Tom's career was non-Social-Security-covered law enforcement, his
-  own SS record may be thinner than average; if he had other covered work it
-  could be near or above average.
-* ESTIMATE: about $1,900/month (reasonable range $1,500 - $2,300/month).
+My incomes. LACERA. $31,105  / year
+         PERS.   $20,294  / year
+         Social Security.      $14,460  / year
+         Mom’s retirement.  $1,406  / year
 
---------------------------------------------------------------------
-2) LA COUNTY SHERIFF'S DEPARTMENT - 23 years (LACERA pension)
---------------------------------------------------------------------
-* LACERA "safety" member. Older safety plans earn roughly 2% to 2.6% of final
-  pay per year of service. 23 years -> roughly 50-60% of final average pay.
-* Final pay for a retired deputy/sergeant (retiring decades ago) might have been
-  ~$70,000-$90,000/year, then grown by years of cost-of-living raises.
-* ESTIMATE today: about $3,800/month (range $3,300 - $4,600/month).
+TOTAL………..$67,265 / year
 
---------------------------------------------------------------------
-3) OCEANSIDE POLICE DEPARTMENT - 13 years (CalPERS pension)
---------------------------------------------------------------------
-* CalPERS local-safety member. Safety formula ~2.5% to 3% per year of service.
-  13 years -> roughly 33-39% of final average pay.
-* Final pay ~$60,000-$85,000/year, then grown by cost-of-living raises.
-* ESTIMATE today: about $2,000/month (range $1,700 - $2,600/month).
-
---------------------------------------------------------------------
-TOTAL ESTIMATED MONTHLY INCOME
---------------------------------------------------------------------
-* Point estimate:  ~$7,700/month  =  ~$92,000/year
-* Reasonable range: ~$6,500 - $9,500/month  =  ~$78,000 - $114,000/year
 
 
 ====================================================================
-WHAT THIS MEANS - DOES TOM QUALIFY?
+WHAT THIS MEANS - DOES TOM QUALIFY?  (using EXACT income $67,265/yr)
 ====================================================================
 
-* Tom's estimated ~$92,000/year is ABOVE every subsidized income limit:
+* Tom's EXACT income is $67,265/year (1-person household). Measured against
+  each AMI cap:
     - Above 30% AMI ($33,050) ............ does NOT qualify
     - Above 50% AMI ($55,000) ............ does NOT qualify (HUD 202, Sec 8)
-    - Above 60% AMI ($66,000) ............ does NOT qualify (tax-credit)
-    - Above ~80% AMI (~$84,150) .......... does NOT qualify (KCHA ceiling)
+    - Above 60% AMI ($66,000) by $1,265 .. does NOT qualify (tax-credit) -- BARELY
+    - BELOW ~80% AMI (~$84,150) .......... QUALIFIES (KCHA admission, ARCH 80%)
 
-* So for Sections 1-5, Tom most likely does NOT income-qualify. The subsidized
-  senior apartments are designed for incomes roughly half of Tom's estimated
-  income.
+* This is BETTER than the earlier ~$92,000 estimate. The exact number puts Tom
+  UNDER the 80% AMI ceiling, so he now has real options on three fronts:
 
-* Tom DOES qualify for SECTION 6 - the MARKET-RATE senior apartments (no income
-  cap): Brandenwood, Crossroads/SHAG, Park Plaza, and the market units at
-  Reunion at Redmond Ridge. He can comfortably afford these.
+  PROGRAM-BY-PROGRAM VERDICT:
+    Section 1  HUD 202 (<=50% AMI) ............... NO  (over by ~$12k)
+    Section 2  Project-based Sec 8 (<=50% target)  NO  (realistically)
+    Section 3  KCHA subsidized (80% ceiling) ..... ELIGIBLE TO APPLY, low priority
+    Section 4  LIHTC tax-credit (<=60% AMI) ...... NO by $1,265 -- CALL ANYWAY
+    Section 5  ARCH (60%-80% AMI) ................ YES at the 80% AMI tier
+    Section 6  Market-rate (no cap) .............. YES (most reliable)
 
-* EXCEPTIONS WORTH CHECKING BY PHONE:
-    - If Tom's actual income is at the LOW end of the estimate (closer to
-      $66,000/year or below), the 60% AMI TAX-CREDIT units (Section 4) could be
-      back in reach. Worth confirming his real numbers first.
-    - Some buildings count income differently (e.g., a portion of assets vs.
-      actual draw). Always verify with the specific building's manager.
+* THE THREE THINGS TOM ACTUALLY QUALIFIES FOR TODAY:
+    1. SECTION 6 market-rate senior apartments - no income cap, he can afford
+       them. Brandenwood, Crossroads/SHAG, Park Plaza, the market units at
+       Reunion at Redmond Ridge. This is the sure thing.
+    2. SECTION 5 ARCH units set at the 80% AMI tier (ask Reunion at Redmond
+       Ridge which tier each open unit is).
+    3. SECTION 3 KCHA waitlists - legally eligible (under 80% AMI), but low
+       priority and many lists are closed; apply as a backup only.
 
-* ACTION ITEM: Get Tom's three real figures (SS award letter + LACERA statement
-  + CalPERS statement). If the true total is under ~$66,000/year, re-open the
-  tax-credit list. If it is ~$90,000 as estimated, focus on the Section 6
-  market-rate senior apartments.
+* THE ONE WORTH A PHONE CALL - SECTION 4 TAX-CREDIT (60% AMI):
+    - Tom is over the $66,000 line by only $1,265. Two things can flip this to a
+      YES:
+        (a) 2-PERSON household: the 60% cap rises to $75,420. Tom's income
+            includes "Mom's retirement," so if Mom would live with him this is a
+            2-person household and the tax-credit units OPEN UP.
+        (b) Buildings count income on different periods/rules; a small
+            difference could land him under $66,000. Always verify with the
+            specific building's manager.
+
+* ACTION ITEM: For each Section 4 tax-credit building, call and (1) state the
+  exact $67,265, (2) ask whether it is a 1- or 2-person application, and (3) ask
+  how they calculate countable income. Meanwhile, apply now to Section 6
+  market-rate and Section 5 ARCH 80% units, where he already qualifies.
 
 
 ====================================================================

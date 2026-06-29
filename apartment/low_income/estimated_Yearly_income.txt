@@ -1,0 +1,110 @@
+
+
+
+********************************************************************
+SUPERSEDED - EXACT INCOME IS NOW KNOWN
+********************************************************************
+Tom's EXACT income has since been confirmed at $67,265/year (LACERA $31,105 +
+PERS $20,294 + Social Security $14,460 + Mom's retirement $1,406). That is far
+BELOW the ~$92,000 estimate below, and it changes his eligibility: he is UNDER
+the 80% AMI cap and only $1,265 over the 60% tax-credit line. See the current
+verdict in low_income.txt ("WHAT THIS MEANS - DOES TOM QUALIFY?"). The estimate
+below is kept only as a record of the earlier guess.
+********************************************************************
+
+
+====================================================================
+TOM STARBUCK - ESTIMATED MONTHLY INCOME
+====================================================================
+
+These are ESTIMATES based on typical formulas, not Tom's actual statements. For
+the real numbers we need his Social Security award letter and his two pension
+statements. Assumptions: Tom is ~83, treated as a 1-person household.
+
+* IMPORTANT NOTE ON CALIFORNIA LAW-ENFORCEMENT PENSIONS:
+  Many California police/sheriff jobs did NOT pay into Social Security (the
+  pension replaced it). That used to REDUCE the Social Security a person could
+  draw (the "Windfall Elimination Provision"). That reduction was REPEALED by
+  the Social Security Fairness Act (signed Jan 2025). So as of 2026 Tom's
+  Social Security is NOT cut by his government pensions.
+
+--------------------------------------------------------------------
+1) SOCIAL SECURITY (assumed age 83)
+--------------------------------------------------------------------
+* The 2026 average retired-worker benefit is about $2,071/month.
+* If much of Tom's career was non-Social-Security-covered law enforcement, his
+  own SS record may be thinner than average; if he had other covered work it
+  could be near or above average.
+* ESTIMATE: about $1,900/month (reasonable range $1,500 - $2,300/month).
+
+--------------------------------------------------------------------
+2) LA COUNTY SHERIFF'S DEPARTMENT - 23 years (LACERA pension)
+--------------------------------------------------------------------
+* LACERA "safety" member. Older safety plans earn roughly 2% to 2.6% of final
+  pay per year of service. 23 years -> roughly 50-60% of final average pay.
+* Final pay for a retired deputy/sergeant (retiring decades ago) might have been
+  ~$70,000-$90,000/year, then grown by years of cost-of-living raises.
+* ESTIMATE today: about $3,800/month (range $3,300 - $4,600/month).
+
+--------------------------------------------------------------------
+3) OCEANSIDE POLICE DEPARTMENT - 13 years (CalPERS pension)
+--------------------------------------------------------------------
+* CalPERS local-safety member. Safety formula ~2.5% to 3% per year of service.
+  13 years -> roughly 33-39% of final average pay.
+* Final pay ~$60,000-$85,000/year, then grown by cost-of-living raises.
+* ESTIMATE today: about $2,000/month (range $1,700 - $2,600/month).
+
+--------------------------------------------------------------------
+TOTAL ESTIMATED MONTHLY INCOME
+--------------------------------------------------------------------
+* Point estimate:  ~$7,700/month  =  ~$92,000/year
+* Reasonable range: ~$6,500 - $9,500/month  =  ~$78,000 - $114,000/year
+
+
+====================================================================
+WHAT THIS MEANS - DOES TOM QUALIFY?
+====================================================================
+
+* Tom's estimated ~$92,000/year is ABOVE every subsidized income limit:
+    - Above 30% AMI ($33,050) ............ does NOT qualify
+    - Above 50% AMI ($55,000) ............ does NOT qualify (HUD 202, Sec 8)
+    - Above 60% AMI ($66,000) ............ does NOT qualify (tax-credit)
+    - Above ~80% AMI (~$84,150) .......... does NOT qualify (KCHA ceiling)
+
+* So for Sections 1-5, Tom most likely does NOT income-qualify. The subsidized
+  senior apartments are designed for incomes roughly half of Tom's estimated
+  income.
+
+* Tom DOES qualify for SECTION 6 - the MARKET-RATE senior apartments (no income
+  cap): Brandenwood, Crossroads/SHAG, Park Plaza, and the market units at
+  Reunion at Redmond Ridge. He can comfortably afford these.
+
+* EXCEPTIONS WORTH CHECKING BY PHONE:
+    - If Tom's actual income is at the LOW end of the estimate (closer to
+      $66,000/year or below), the 60% AMI TAX-CREDIT units (Section 4) could be
+      back in reach. Worth confirming his real numbers first.
+    - Some buildings count income differently (e.g., a portion of assets vs.
+      actual draw). Always verify with the specific building's manager.
+
+* ACTION ITEM: Get Tom's three real figures (SS award letter + LACERA statement
+  + CalPERS statement). If the true total is under ~$66,000/year, re-open the
+  tax-credit list. If it is ~$90,000 as estimated, focus on the Section 6
+  market-rate senior apartments.
+
+
+====================================================================
+SOURCES
+====================================================================
+* King County 2025 Income & Rent Limits (HUD AMI):
+  https://www.huduser.gov/portal/datasets/il.html
+  https://www.kcha.org/housing/subsidized/eligibility
+* King County 2025 LIHTC income limits:
+  https://westmontadvisors.com/hudincomedata2025/2025-lihtc-income-limits-king-county-wa/
+* KCHA residency / who can apply:
+  https://www.kcha.org/housing/subsidized/apply
+* Social Security 2026 average benefit / COLA:
+  https://www.ssa.gov/news/en/cola/factsheets/2026.html
+* LACERA safety retirement formulas:
+  https://www.lacera.gov/plan/safety-ab/plan-book/calculating-your-retirement-allowance
+* CalPERS local safety benefit factors:
+  https://www.calpers.ca.gov/members/retirement-benefits/benefit-factor-charts
