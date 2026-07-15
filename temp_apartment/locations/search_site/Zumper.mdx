@@ -1,0 +1,98 @@
+# Zumper
+
+**The best mainstream search site in this entire search — start here.** It has the only
+**real, structured short-term filter** of any major site (not a keyword hack), it fetches
+cleanly, and it returns actual in-budget inventory across all three target cities.
+
+| Field | Value |
+|---|---|
+| Category | search_site |
+| Geography | Redmond / Bellevue / Kirkland (Eastside) |
+| Price range | **$1,650–6,219** *(published)* |
+| Price confidence | published |
+| Filter | **Short term — under Lease Length** |
+| Furnished | Many furnished |
+| Utilities included | Some |
+| Parking | Varies |
+| Pets | Filterable |
+| Unit types | Studio–5BR |
+| Private / no roommates | **Yes** |
+| Availability | **25 Redmond / 25 Bellevue / 25 Kirkland** |
+| Drive to Redmond | 0 min |
+| Senior friendly | Unknown |
+| Cost to use | Free |
+
+## What it is and how it works
+
+A mainstream rental search site whose distinguishing feature is that **its short-term filter
+is a genuine structured field under Lease Length** — not a text search against listing
+descriptions. That sounds like a small distinction. It is the single most important
+difference between this site and [Zillow](./Zillow.mdx), where the filter matches keywords
+and returns listings that explicitly say *"no month-to-month."*
+
+**What was actually found:**
+
+| City | Results | Price range |
+|---|---|---|
+| Redmond | 25 rentals | $1,650–6,219 |
+| Bellevue | 25 rentals | $1,650–8,000 |
+| Kirkland | 25 rentals | $1,280–5,566 |
+
+**Most listings cluster $2,000–4,000** — meaning a real share of them land under the $3,300
+ceiling.
+
+## How to search it effectively
+
+City-level short-term searches:
+
+```
+https://www.zumper.com/apartments-for-rent/redmond-wa/short-term
+https://www.zumper.com/apartments-for-rent/bellevue-wa/short-term
+https://www.zumper.com/apartments-for-rent/kirkland-wa/short-term
+```
+
+**Neighborhood sub-paths work** — genuinely useful, since East Bellevue is a target area and
+most sites treat Bellevue as one undifferentiated blob:
+
+```
+https://www.zumper.com/apartments-for-rent/bellevue-wa/bel-red/short-term
+https://www.zumper.com/apartments-for-rent/bellevue-wa/southeast-bellevue/short-term
+```
+
+Filter path in the UI: **Lease Length → Short term**.
+
+## Does the filter actually work?
+
+**Yes — and it is the only mainstream site where that is true.**
+
+The Short term option is a real structured field. That is why this page recommends starting
+here and why the results are worth treating as leads rather than noise. Compare:
+
+* [Zillow's](./Zillow.mdx) `_att` filters are **keyword matches** against description text.
+* [Apartment List's](./Apartment_List.mdx) short-term page still shows **12- and 13-month
+  terms**.
+* [HotPads](./HotPads.mdx) has **no lease-length filter at all**.
+
+**Two caveats:**
+
+1. **The 25-result caps look like hard limits.** Exactly 25 in each of three cities is not a
+   coincidence — it is a cap. You are likely seeing a truncated set, not the full market.
+2. **Some listings are syndicated duplicates of [Apartments.com](./Apartments_com.mdx).** The
+   same unit can appear on both. Do not count it twice.
+
+And the standing caveat for every site in this category: "short term" on a listing site
+usually means **3–6 months**, not the 1–2 Tom needs. Even a working filter cannot conjure
+inventory that does not exist. These are a **call list**, not an answer.
+
+## Links
+
+* [Overview](../../overview.mdx)
+* [PadMapper](./PadMapper.mdx) — **Zumper-owned, same inventory, better map**. Use PadMapper
+  for geography, Zumper for the list. Running both is partly redundant.
+* [Zillow](./Zillow.mdx) — bigger FRBO pool, but the filter lies
+* [Apartments.com](./Apartments_com.mdx) — larger managed-building database; some Zumper
+  listings are syndicated from it
+* [Apartment List](./Apartment_List.mdx) — the filter that is not in the search UI at all
+* [Furnished Finder](../platform/Furnished_Finder.mdx) — purpose-built for 30-day stays,
+  which no mainstream site is; the better tool for a 1–2 month term
+* Source: https://www.zumper.com/apartments-for-rent/bellevue-wa/short-term
