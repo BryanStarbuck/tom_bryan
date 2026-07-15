@@ -1,0 +1,79 @@
+# Trulia
+
+**Skip it.** A Zillow-owned reskin: the same listings, a worse rental UI, and **no short-term
+or month-to-month filter of any kind**. Strictly dominated by [Zillow](./Zillow.mdx).
+Documented so nobody wastes time here.
+
+| Field | Value |
+|---|---|
+| Category | search_site |
+| Geography | Redmond (Eastside) |
+| Price range | $1,800–4,000 *(estimate)* |
+| Price confidence | estimate |
+| Filter | **NONE** |
+| Furnished | No |
+| Utilities included | No |
+| Parking | Filterable |
+| Pets | Filterable |
+| Unit types | Apartments / houses |
+| Private / no roommates | Yes |
+| Availability | **Mirrors Zillow** |
+| Drive to Redmond | 0 min |
+| Senior friendly | No |
+| Source | https://www.trulia.com/for_rent/Redmond |
+
+## What it is and how it works
+
+Trulia is **owned by Zillow** and shows **the same listings** through a different interface —
+one that is worse for rentals specifically. There is no unique inventory. Every unit here is
+on Zillow.
+
+**Its only real differentiator is crime and school overlays**, which are irrelevant to a
+two-month senior stay. Tom is not enrolling anyone in a school district and is not making a
+decade-long neighborhood bet. The one feature Trulia has that Zillow does not is the one
+feature this search does not need.
+
+## How to search it effectively
+
+Don't. Use [Zillow](./Zillow.mdx) instead — same listings, better rental interface, and at
+least it has lease-related URL paths to attempt.
+
+```
+https://www.trulia.com/for_rent/Redmond
+```
+
+## Does the filter actually work?
+
+**There is no filter. Not a broken one — none at all.**
+
+* **No short-term filter.**
+* **No month-to-month filter.**
+* **No `_att` lease paths** — Zillow's keyword-based lease URL paths do not exist here. Trulia
+  did not even inherit its parent's flawed version.
+
+So the site offers no way, structured or keyword, to express the single constraint that
+defines this search. You would be manually reading Redmond rental listings looking for term
+language — which you could do on Zillow with more inventory visibility and a better UI.
+
+**The domination is total:**
+
+| | Zillow | Trulia |
+|---|---|---|
+| Inventory | Full | **Same listings** |
+| Rental UI | Better | Worse |
+| Lease filter | Keyword-based (flawed, but exists) | **None** |
+| Unique value | Biggest FRBO pool | Crime/school overlays *(irrelevant here)* |
+
+There is no scenario in this search where Trulia is the right tool. **Skip it.**
+
+## Links
+
+* [Overview](../../overview.mdx)
+* [Zillow](./Zillow.mdx) — **the parent site. Use this instead.** Same listings, biggest FRBO
+  pool, and a lease filter that at least exists (though it is a keyword match that returns
+  "no month-to-month" listings)
+* [HotPads](./HotPads.mdx) — the third Zillow-owned site; also no term filter, but it has a
+  genuinely useful for-rent-by-owner filter, which is a real reason to open it
+* [Zumper](./Zumper.mdx) — the only mainstream site with a real structured short-term filter
+* [Realtor.com](./Realtor_com.mdx) — the other site documented here purely as a skip
+* Source: https://www.trulia.com/for_rent/Redmond

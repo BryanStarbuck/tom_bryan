@@ -1,0 +1,98 @@
+# Realtor.com
+
+**Skip it.** MLS-fed, which makes it strong for for-sale listings and weak for rentals —
+**most Eastside apartment inventory never touches the MLS**. No lease-term filter, and it
+blocks automated fetching entirely. There is one thin edge, described below, but it does not
+justify time.
+
+| Field | Value |
+|---|---|
+| Category | search_site |
+| Geography | Redmond (Eastside) |
+| Price range | $1,800–4,500 *(estimate)* |
+| Price confidence | estimate |
+| Filter | **NONE** |
+| Furnished | No |
+| Utilities included | No |
+| Parking | Filterable |
+| Pets | Filterable |
+| Unit types | Apartments / condos / houses |
+| Private / no roommates | Yes |
+| Availability | MLS-fed |
+| Drive to Redmond | 0 min |
+| Senior friendly | No |
+| Source | https://www.realtor.com/apartments/Redmond_WA |
+
+## What it is and how it works
+
+Realtor.com is **fed by the MLS** — the multiple listing service real-estate agents use. That
+architecture is why it is excellent for buying a house and poor for renting an apartment.
+
+**The structural problem:** **most Eastside apartment inventory never touches the MLS.** A
+professionally managed building does not list its units with a real-estate agent — it runs its
+own leasing office and syndicates to [Apartments.com](./Apartments_com.mdx),
+[Zillow](./Zillow.mdx), and [Zumper](./Zumper.mdx). The MLS never sees it. So Realtor.com has
+the **weakest rental inventory of the majors**, not because the site is bad but because it is
+plumbed into the wrong pipe.
+
+**The thin edge — the only argument for this page:** because it is agent-fed, it surfaces
+**agent-listed condo rentals from owners between sales**. Someone whose condo did not sell,
+who would rather rent it for a few months than carry it empty, is exactly the kind of landlord
+who **might accept a short term**. That population is genuinely underrepresented on the
+managed-building sites.
+
+It is a real edge. It is also small, and reachable more efficiently through
+[HotPads' FRBO filter](./HotPads.mdx) or [Craigslist](./Craigslist_search.mdx), which target
+the same private-owner population without the MLS bottleneck.
+
+## How to search it effectively
+
+```
+https://www.realtor.com/apartments/Redmond_WA
+```
+
+**Two obstacles:**
+
+1. **No lease-term filter.** There is no way to express "month-to-month" or "short term."
+   Manual reading only.
+2. **It blocks automated fetching entirely.** Nothing about this site can be scripted or
+   batch-checked — a human in a real browser, every time.
+
+If you look anyway, look **only for condo rentals with an agent attached** and ask the term
+question directly. Ignore everything else; the general rental inventory is a strictly worse
+version of what Zillow already showed you.
+
+## Does the filter actually work?
+
+**There is no filter to evaluate — the field does not exist.**
+
+No lease-term filter, no short-term category, no month-to-month path. Combined with the
+fetch-blocking, this site is the most labor-intensive surface in the category and returns the
+least relevant inventory.
+
+**Where it ranks:**
+
+| Site | Term filter | Rental inventory |
+|---|---|---|
+| [Zumper](./Zumper.mdx) | **Real structured field** | Good, capped at 25/city |
+| [Apartments.com](./Apartments_com.mdx) | Property-level flag | **Largest** (2,775 Bellevue) |
+| [Zillow](./Zillow.mdx) | Keyword match (misleads) | Largest FRBO pool |
+| [HotPads](./HotPads.mdx) | None — but FRBO filter works | Duplicates Zillow |
+| [Trulia](./Trulia.mdx) | **None** | Duplicates Zillow |
+| **Realtor.com** | **None** | **Weakest of the majors** |
+
+Bottom of the table on both axes. **Skip it** — and if the private-owner angle is what
+attracted you, go to [HotPads FRBO](./HotPads.mdx) or
+[Craigslist](./Craigslist_search.mdx) instead.
+
+## Links
+
+* [Overview](../../overview.mdx)
+* [HotPads](./HotPads.mdx) — the **for-rent-by-owner filter** reaches the same private-owner
+  population far more efficiently; Bellevue has 98 FRBO listings
+* [Craigslist as a search surface](./Craigslist_search.mdx) — where private owners actually
+  post, free and at volume
+* [Zumper](./Zumper.mdx) — the real structured short-term filter
+* [Trulia](./Trulia.mdx) — the other documented skip
+* [Zillow](./Zillow.mdx) — strictly better on both inventory and filters
+* Source: https://www.realtor.com/apartments/Redmond_WA

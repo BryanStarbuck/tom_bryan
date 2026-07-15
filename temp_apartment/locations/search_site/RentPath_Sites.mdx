@@ -1,0 +1,106 @@
+# Rent.com / ForRent.com / ApartmentGuide / ApartmentFinder (RentPath)
+
+**Pick one and only one — searching more than one is wasted effort.** All four brands share
+**one database** (now under Redfin). They look like four sites; they are one. And ForRent's
+headline claim of **977 Bellevue short-term results is inflated** — RentPath counts
+*buildings* that offer short terms and multiplies by floor plans.
+
+| Field | Value |
+|---|---|
+| Category | search_site |
+| Geography | Redmond / Bellevue (Eastside) |
+| Price range | $1,500–4,500 *(estimate)* |
+| Price confidence | estimate |
+| Filter | Short-term lease filter |
+| Furnished | Some |
+| Utilities included | Varies |
+| Parking | Yes |
+| Pets | Filterable |
+| Unit types | Apartments |
+| Private / no roommates | **Yes** |
+| Availability | **~334 furnished Redmond apartments** |
+| Drive to Redmond | 0 min |
+| Senior friendly | Unknown |
+| Cost to use | Free |
+
+## What it is and how it works
+
+**Four brands, one database.** Rent.com, ForRent.com, ApartmentGuide, and ApartmentFinder are
+all RentPath properties, now under **Redfin**. They share the same listing inventory behind
+different skins.
+
+**The practical consequence:** if you search Rent.com and then search ForRent.com, you have
+searched the same database twice. Different logo, same results. **Searching more than one is
+wasted effort** — pick whichever loads and move on.
+
+**Useful number:** ~**334 furnished Redmond apartments**. Furnished matters here — the
+[overview](../../overview.mdx) found that unfurnished is a trap for a 2-month stay once
+[CORT furniture rental](../corporate_housing/CORT_Furniture_Rental.mdx), delivery, two moves,
+and utility setup are added.
+
+## How to search it effectively
+
+Furnished Redmond (Rent.com):
+
+```
+https://www.rent.com/washington/redmond-apartments/furnished
+```
+
+Short-term Bellevue (ForRent):
+
+```
+https://www.forrent.com/find/WA/metro-Seattle/Bellevue/extras-Short+Term+Lease
+```
+
+**Two practical warnings:**
+
+1. **Rent.com rate-limits aggressively.** Expect to be throttled or blocked if you page
+   through results quickly. Slow down or switch to a sibling brand — same data.
+2. **Do not cross-check between the brands.** It is the same database. Cross-checking creates
+   false confidence and duplicate call lists.
+
+## Does the filter actually work?
+
+**The filter exists. The result counts are inflated — badly.**
+
+**ForRent claims 977 Bellevue short-term results.** That number is not real inventory. Here is
+the mechanism:
+
+> **RentPath counts BUILDINGS that offer short terms and multiplies by floor plans.**
+
+A single building with 12 floor plans that once wrote a short lease contributes **12 results**
+to the count. Roughly 80 such buildings produce "977 short-term results" without a single
+30-day unit existing anywhere. The number measures *floor plan brochures*, not available
+apartments.
+
+This is the same property-level flag problem found on [Apartments.com](./Apartments_com.mdx) —
+"we sometimes do short terms" — but amplified by a multiplier that turns it into an
+impressive-looking headline.
+
+**How this category ranks:**
+
+| Site | Filter reality |
+|---|---|
+| [Zumper](./Zumper.mdx) | **Real structured field.** Works. |
+| [Apartments.com](./Apartments_com.mdx) | Real filter, property-level flag |
+| [RentCafe](./RentCafe.mdx) | Works, but only Yardi buildings; $2,449 floor |
+| **RentPath (this page)** | **Property-level flag × floor plans = inflated counts** |
+| [Zillow](./Zillow.mdx) | Keyword match; returns "no month-to-month" listings |
+| [Apartment List](./Apartment_List.mdx) | Quiz-only; results contradict the label |
+
+**Use it for the ~334 furnished Redmond listings**, which is a real and relevant cut. **Ignore
+the short-term counts entirely.**
+
+## Links
+
+* [Overview](../../overview.mdx)
+* [Zumper](./Zumper.mdx) — the real structured short-term filter; start there instead
+* [PadMapper](./PadMapper.mdx) — the same filter with a map
+* [Apartments.com](./Apartments_com.mdx) — the larger managed database with the same
+  property-level flag problem, minus the multiplier
+* [RentCafe](./RentCafe.mdx) — the Yardi-only slice
+* [CORT Furniture Rental](../corporate_housing/CORT_Furniture_Rental.mdx) — if you take an
+  unfurnished unit found here, this is the furniture math
+* [Furnished Finder](../platform/Furnished_Finder.mdx) — furnished **and** 30-day native, free
+  for renters
+* Source: https://www.forrent.com/find/WA/metro-Seattle/Bellevue/extras-Short+Term+Lease

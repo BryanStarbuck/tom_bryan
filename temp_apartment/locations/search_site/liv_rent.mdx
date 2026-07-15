@@ -1,0 +1,98 @@
+# liv.rent
+
+**Skip it — but read why, because it is the most interesting failure in this search.** liv.rent
+has the **best filter design found anywhere**: a real, dedicated, first-class "Month to Month"
+category with its own URL path, on a site that **verifies landlords**. It also returns
+**ZERO results for Redmond**. A perfect filter over an empty database. Documented so nobody
+re-discovers the URL and gets excited.
+
+| Field | Value |
+|---|---|
+| Category | search_site |
+| Geography | Redmond (Eastside) |
+| Price range | **$0–0 — there are no listings** |
+| Price confidence | published |
+| Filter | **True month-to-month filter** |
+| Furnished | No |
+| Utilities included | No |
+| Parking | Varies |
+| Pets | Varies |
+| Unit types | Apartments |
+| Private / no roommates | Yes |
+| Availability | **0 results Redmond** |
+| Drive to Redmond | 0 min |
+| Senior friendly | No |
+| Source | https://liv.rent/rental-listings/city/redmond-wa/month-to-month |
+
+## What it is and how it works
+
+liv.rent is a **Vancouver, BC–centric** rental platform. It has **essentially no Washington
+presence**.
+
+That single fact ends the story. But the reason this page exists is the setup, because it is
+genuinely the site everyone in this search wishes existed:
+
+* **A real, dedicated, first-class "Month to Month" category** — not a keyword hack like
+  [Zillow's `_att` paths](./Zillow.mdx), not a property-level "we sometimes do" flag like
+  [Apartments.com](./Apartments_com.mdx), not a quiz answer like
+  [Apartment List](./Apartment_List.mdx). A real category, with **its own URL path**.
+* **It verifies landlords** — the exact defense missing from
+  [Craigslist](../sublet/Craigslist_Eastside.mdx) and
+  [Facebook](../sublet/Facebook_Marketplace_and_Groups.mdx), where the fraud in this search
+  actually lives.
+
+Perfect filter. Landlord verification. **Zero inventory.**
+
+## How to search it effectively
+
+```
+https://liv.rent/rental-listings/city/redmond-wa/month-to-month
+```
+
+**That URL works. It returns nothing.** The page loads, the filter applies correctly, and
+there are no listings, because there is no Washington inventory to filter.
+
+**This is the trap this page exists to prevent.** The URL looks exactly like the answer to
+this entire search — the city is right, the filter is right, the path is clean. Anyone who
+finds it will assume they have found the tool. They have found an empty room with a very good
+door.
+
+**Do not spend time here.** Do not try other Eastside cities; the platform is Vancouver-focused
+and the Washington gap is structural, not a Redmond quirk.
+
+## Does the filter actually work?
+
+**The filter is the best in this entire category. It has nothing to filter.**
+
+This is worth stating precisely, because it is the inverse of every other page here:
+
+| Site | Filter quality | Inventory |
+|---|---|---|
+| **liv.rent** | **Best found — real dedicated M2M category** | **Zero** |
+| [Zumper](./Zumper.mdx) | Real structured field | 25/city, in budget |
+| [Apartments.com](./Apartments_com.mdx) | Property-level flag | Largest (2,775 Bellevue) |
+| [Zillow](./Zillow.mdx) | Keyword match — actively misleads | Biggest FRBO pool |
+| [Apartment List](./Apartment_List.mdx) | Quiz-only; contradicts itself | 116 claimed |
+| [HotPads](./HotPads.mdx) | None | Duplicates Zillow |
+
+Every other site in this search trades filter honesty for inventory. liv.rent is the only one
+that got the filter exactly right — and it is useless, because **a filter is only as good as
+the database underneath it**.
+
+The practical lesson for this search: stop looking for a better filter. The filter is not the
+bottleneck. **The inventory is.** No conventional Eastside building writes true month-to-month
+([overview](../../overview.mdx)), so no filter — however well designed — can surface what does
+not exist. That is why the answer to Tom's problem lives with extended-stay hotels, furnished
+operators, and private owners, not with a search site.
+
+## Links
+
+* [Overview](../../overview.mdx)
+* [Zumper](./Zumper.mdx) — the best filter that also has inventory. **Use this instead.**
+* [HouseStay](./HouseStay.mdx) — the other "honest but thin" site; at least it has listings
+* [Trulia](./Trulia.mdx) — the other documented skip
+* [Realtor_com](./Realtor_com.mdx) — the third documented skip
+* [Furnished Finder](../platform/Furnished_Finder.mdx) — **what liv.rent pretends to be**:
+  30-day terms as the native product, real Eastside depth (Redmond 21, Bellevue 44, Kirkland
+  50), free for renters
+* Source: https://liv.rent/rental-listings/city/redmond-wa/month-to-month

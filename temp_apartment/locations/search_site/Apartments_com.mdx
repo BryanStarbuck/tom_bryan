@@ -1,0 +1,95 @@
+# Apartments.com
+
+**Worth Tom's time, but the Short Term flag means less than it appears.** This is the
+dominant database for managed buildings — 2,775 Bellevue rentals. Its Short Term filter is
+genuine, but it is set at the **property level by the leasing office**, meaning "we sometimes
+do short terms," not "a month-to-month unit exists today." And the premium here runs
+**$300–800/mo**, which pushes a typical Eastside 1BR right to the ceiling.
+
+| Field | Value |
+|---|---|
+| Category | search_site |
+| Geography | Redmond / Bellevue / Kirkland (Eastside) |
+| Price range | $1,800–4,500 *(estimate)* |
+| Price confidence | estimate |
+| Filter | Short-term lease **amenity** filter |
+| Furnished | Mixed |
+| Utilities included | Varies |
+| Parking | Yes |
+| Pets | Filterable |
+| Unit types | Apartments |
+| Private / no roommates | **Yes** |
+| Availability | 2,775 Bellevue rentals overall |
+| Drive to Redmond | 0 min |
+| Senior friendly | Unknown |
+| Cost to use | Free |
+
+## What it is and how it works
+
+The **largest managed-property database** in the search. If a professionally managed building
+exists on the Eastside, it is here. That breadth is real and useful — 2,775 Bellevue rentals
+is more than any other site returns.
+
+But breadth is the wrong axis for Tom's problem. The constraint is **term length**, and this
+site is built around managed buildings — precisely the operators least willing to write a
+1–2 month lease. As the [overview](../../overview.mdx) found, **no conventional apartment
+building in Redmond, Bellevue, or Kirkland offers true month-to-month.** This database is a
+comprehensive index of exactly that inventory.
+
+## How to search it effectively
+
+```
+https://www.apartments.com/redmond-wa/short-term/
+https://www.apartments.com/bellevue-wa/short-term/
+https://www.apartments.com/kirkland-wa/short-term/
+```
+
+Filter path in the UI: **Lease Length → Short Term** (it lives under amenities).
+
+Use this site to **build the call list of managed buildings**, then ask each one the term
+question directly. Do not use it to answer the term question — it cannot.
+
+## Does the filter actually work?
+
+**Partly — and the way it fails is specific and worth understanding.**
+
+**The Short Term filter is genuine.** It is a real filter, not a keyword hack like
+[Zillow's `_att` paths](./Zillow.mdx). That is a point in its favor.
+
+**But the flag is set at the PROPERTY level by the leasing office.** This is the catch. When
+a building checks the "short term" box, it is saying:
+
+> *"We sometimes do short terms."*
+
+It is **not** saying:
+
+> *"A month-to-month unit is available right now."*
+
+Those are very different claims, and the filter cannot distinguish them. A building that once
+wrote a 6-month lease for someone qualifies for the flag permanently.
+
+**Two more things the filter will not tell you:**
+
+1. **"Short term" here usually means 3–6 months, not 1–2.** Tom needs one to two. Most of
+   these results are double or triple that. See the [overview](../../overview.mdx) — the
+   shortest conventional terms found anywhere on the Eastside were 2 months.
+2. **The premium is $300–800/mo.** This is the number that breaks the budget. A typical
+   Eastside 1BR at **~$2,400** becomes **~$3,000–3,300** once the short-term premium applies —
+   landing exactly at or above the $3,300 ceiling. The listed price is never the short-term
+   price.
+
+Net: a real filter over the wrong inventory, priced at the edge of budget. **Useful as a
+directory of buildings to call. Not useful as an answer.**
+
+## Links
+
+* [Overview](../../overview.mdx)
+* [Zumper](./Zumper.mdx) — the only mainstream site with a **structured, unit-level** short-term
+  filter; some Zumper listings are syndicated from here, so expect duplicates
+* [PadMapper](./PadMapper.mdx) — Zumper's map view
+* [Zillow](./Zillow.mdx) — smaller managed-building coverage but a far bigger private-owner pool
+* [RentCafe](./RentCafe.mdx) — the Yardi-only slice; narrower, with a $2,449 floor
+* [RentPath sites](./RentPath_Sites.mdx) — Rent.com / ForRent / ApartmentGuide, one shared database
+* [Furnished Finder](../platform/Furnished_Finder.mdx) — **30 days is its native product**, with
+  no short-term premium bolted on; the better tool for a 1–2 month term
+* Source: https://www.apartments.com/redmond-wa/short-term/

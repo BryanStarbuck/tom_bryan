@@ -1,0 +1,102 @@
+# HotPads
+
+**Worth Tom's time — but not for the reason you would expect.** HotPads has **no
+month-to-month filter at all** (verified), and being Zillow-owned, its inventory duplicates
+[Zillow](./Zillow.mdx). Its real value is the **for-rent-by-owner filter**: 98 FRBO and 147
+furnished listings in Bellevue. **Private landlords are the people who will actually agree to
+1–2 months**, and no site lets you filter for that directly.
+
+| Field | Value |
+|---|---|
+| Category | search_site |
+| Geography | Redmond / Bellevue / Kirkland (Eastside) |
+| Price range | $1,350–5,000 *(estimate)* |
+| Price confidence | estimate |
+| Filter | **No month-to-month filter exists** |
+| Furnished | Some |
+| Utilities included | Varies |
+| Parking | Varies |
+| Pets | Filterable |
+| Unit types | Apartments / condos / houses / **rooms (avoid)** |
+| Private / no roommates | Use the **FRBO filter** |
+| Availability | **Bellevue: 98 FRBO, 147 furnished** |
+| Drive to Redmond | 0 min |
+| Senior friendly | Unknown |
+| Cost to use | Free |
+
+## What it is and how it works
+
+A Zillow-owned rental site. Because it is Zillow-owned, **its inventory duplicates Zillow's** —
+if you have worked Zillow thoroughly, HotPads adds little new stock.
+
+What it adds is a **different filter set**. HotPads exposes a **for-rent-by-owner (FRBO)**
+filter that Zillow does not surface as cleanly, plus a furnished filter and a sublets filter.
+That is the entire reason to open this site.
+
+**Why FRBO is the point.** The [overview](../../overview.mdx) established that no conventional
+managed building on the Eastside writes true month-to-month. The people who will are **private
+owners** — someone with one condo, between tenants, who would rather have two months of rent
+than zero. **No site has a "will you do two months?" filter.** FRBO is the closest available
+proxy, because it isolates the population of landlords who *can* say yes without asking a
+corporate policy.
+
+**Bellevue: 98 for-rent-by-owner, 147 furnished.** That is a real, workable call list.
+
+## How to search it effectively
+
+The FRBO surface — this is the URL that matters:
+
+```
+https://hotpads.com/bellevue-wa/for-rent-by-owner
+```
+
+Swap the city for the other targets:
+
+```
+https://hotpads.com/redmond-wa/for-rent-by-owner
+https://hotpads.com/kirkland-wa/for-rent-by-owner
+```
+
+Also useful: the **furnished** filter (147 in Bellevue) and the **sublets** filter.
+
+**Avoid its Rooms section entirely.** Same rule as
+[Craigslist's `est/roo`](../sublet/Craigslist_Eastside.mdx) — rooms mean roommates, which the
+charter rules out.
+
+## Does the filter actually work?
+
+**There is no filter to work — and that was verified, not assumed.**
+
+The filter panel contains: **beds, baths, price, sqft, pets, furnished, and sublets**. There
+is **no lease-length field**. And `?lease=month` **is not a real parameter** — appending it
+does nothing. Do not build a URL around it and do not assume a hidden filter exists.
+
+So the honest framing of this site:
+
+| | |
+|---|---|
+| **Month-to-month filter** | Does not exist. Verified. |
+| **Inventory** | Duplicates [Zillow](./Zillow.mdx) — nothing new |
+| **Actual value** | The **FRBO filter** — the private-landlord population |
+
+**The FRBO filter does work**, and it is a genuinely different cut of the market than
+[Zumper](./Zumper.mdx) or [Apartments.com](./Apartments_com.mdx) provide — both of those skew
+to managed buildings, which is the inventory least able to help Tom.
+
+The trade: you get the right *population* of landlords but must ask every one of them the term
+question by phone, because the site cannot filter it. That is still a better use of an hour
+than a filter that silently lies, which is what [Zillow](./Zillow.mdx) offers.
+
+## Links
+
+* [Overview](../../overview.mdx)
+* [Zillow](./Zillow.mdx) — **the parent site; same inventory.** Its `_att` term filter is a
+  keyword match and returns listings that say "no month-to-month"
+* [Trulia](./Trulia.mdx) — the third Zillow-owned site; adds nothing
+* [Zumper](./Zumper.mdx) — the only real structured short-term filter available
+* [Craigslist as a search surface](./Craigslist_search.mdx) — the other private-landlord channel,
+  free, higher volume
+* [Nextdoor](../sublet/Nextdoor.mdx) — private owners with ADUs, lowest scam risk
+* [Furnished Finder](../platform/Furnished_Finder.mdx) — private owners **and** a native 30-day
+  term; the best version of this idea
+* Source: https://hotpads.com/bellevue-wa/for-rent-by-owner

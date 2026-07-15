@@ -1,0 +1,97 @@
+# Zillow
+
+**Worth Tom's time for the inventory, but the month-to-month filter lies — do not trust it.**
+Zillow has the biggest for-rent-by-owner pool of any site here, and private owners are the
+people who will actually agree to a 1–2 month term. But its lease filters are **keyword
+matches against listing text**, so a listing that says *"no month-to-month"* still shows up.
+Results are a **call list**, never an answer.
+
+| Field | Value |
+|---|---|
+| Category | search_site |
+| Geography | Redmond / Bellevue / Kirkland (Eastside) |
+| Price range | **$1,964–3,578** *(published — the curated landing page average)* |
+| Price confidence | published |
+| Filter | Month-to-month **via keyword filter** |
+| Furnished | Mixed |
+| Utilities included | Varies |
+| Parking | Varies |
+| Pets | Filterable |
+| Unit types | Apartments / condos / houses |
+| Private / no roommates | **Yes — but filter out rooms** |
+| Availability | 16 rentals for 98052 month-lease |
+| Drive to Redmond | 0 min |
+| Senior friendly | Unknown |
+| Cost to use | Free |
+
+## What it is and how it works
+
+The largest rental site, and the one with the **biggest FRBO (for-rent-by-owner) pool**. That
+matters more than it sounds: managed buildings almost never write a 1–2 month lease, but a
+private owner with an empty condo might. Zillow surfaces more of those owners than anyone.
+
+**Two different URL surfaces, and they behave differently:**
+
+**1. The curated short-term landing page** — an editorial page, states a **$1,964–3,578**
+average:
+
+```
+https://www.zillow.com/redmond-wa/short-term-apartments/
+```
+
+**2. The keyword-filtered search** — returns **16 rentals** for the 98052 ZIP:
+
+```
+https://www.zillow.com/redmond-wa-98052/rentals/month-lease_att/
+```
+
+## How to search it effectively
+
+Use the `_att` path above, then **manually verify every result**.
+
+**Practical notes:**
+
+* **Zillow 403s bots.** It blocks automated fetching. This needs a human in a real browser —
+  do not expect to script it.
+* **It mixes in rooms-for-rent.** Exclude them. The charter rules out roommates, and Zillow
+  does not separate them the way [Craigslist splits `apa` from `roo`](../sublet/Craigslist_Eastside.mdx).
+* Swap the ZIP for other target areas — 98052 is Redmond; East Bellevue and South Kirkland
+  need their own runs.
+
+## Does the filter actually work?
+
+**No. This is the most important finding on this page.**
+
+**The `_att` filters are KEYWORD MATCHES against listing description text — not structured
+lease data.** The filter scans for the phrase "month" and "lease" appearing in the
+description. It has no idea what the listing actually means.
+
+The concrete failure: **a listing whose description reads "no month-to-month" still
+matches.** The words are present, so the filter fires. The site returns the exact opposite of
+what you asked for and presents it as a match.
+
+**What this means in practice:**
+
+* The 16 results for 98052 are **not 16 month-to-month rentals**. They are 16 listings whose
+  text happens to contain matching words. Some will be direct contradictions.
+* **Never call a landlord assuming the filter vetted the term.** Ask the term question fresh,
+  every time.
+* Treat the entire result set as a **list of numbers to dial**, not a list of options.
+
+For a filter that actually works on structured data, use [Zumper](./Zumper.mdx) — it is the
+only mainstream site with a genuine Lease Length field. **Zillow's value here is inventory
+breadth, not filter quality.** Use Zumper to filter and Zillow to find private owners Zumper
+misses.
+
+## Links
+
+* [Overview](../../overview.mdx)
+* [Zumper](./Zumper.mdx) — the real structured short-term filter; use it for filtering
+* [PadMapper](./PadMapper.mdx) — Zumper's map, for confirming geography
+* [HotPads](./HotPads.mdx) — **Zillow-owned, so inventory duplicates this site**; but it has a
+  usable FRBO filter Zillow lacks
+* [Trulia](./Trulia.mdx) — also Zillow-owned; same listings, no term filter at all. **Strictly
+  dominated by this page — skip it.**
+* [Craigslist as a search surface](./Craigslist_search.mdx) — where private owners post for free
+* [Furnished Finder](../platform/Furnished_Finder.mdx) — 30-day native; no filter guesswork
+* Source: https://www.zillow.com/redmond-wa-98052/rentals/month-lease_att/

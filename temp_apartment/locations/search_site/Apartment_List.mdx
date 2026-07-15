@@ -1,0 +1,98 @@
+# Apartment List
+
+**Mostly a dead end — it is a lead-generation funnel, not a search tool.** The
+month-to-month filter is **not in the search UI at all**; it lives in an onboarding quiz, so
+you cannot build a shareable filtered URL. And listings on its own short-term page **still
+display 12- and 13-month terms** — strong evidence the categorization is marketing rather
+than data. Expect sales calls.
+
+| Field | Value |
+|---|---|
+| Category | search_site |
+| Geography | Redmond / Bellevue / Kirkland (Eastside) |
+| Price range | $1,350–22,000 *(published)* |
+| Price confidence | published |
+| Filter | **Quiz-based lease length preference** |
+| Furnished | Some |
+| Utilities included | Varies |
+| Parking | Varies |
+| Pets | Filterable |
+| Unit types | Apartments |
+| Private / no roommates | **Yes** |
+| Availability | **116 short-term Bellevue apartments claimed** |
+| Drive to Redmond | 0 min |
+| Senior friendly | Unknown |
+| Cost to use | Free |
+
+## What it is and how it works
+
+Apartment List is structured as a **matching service**, not a listing board. You answer an
+onboarding quiz — budget, beds, move-in date, lease length — and it presents "matches" and
+routes your contact information to properties.
+
+That design choice has a direct consequence for this search: **the month-to-month filter is
+not in the search UI. It lives in the quiz.** You cannot construct a URL that expresses
+"month-to-month in Redmond" and hand it to someone. There is no shareable filtered link.
+Every user has to walk the funnel themselves, which is the point — the funnel is the product.
+
+It claims **116 short-term Bellevue apartments, $1,350–22,000**. That $22,000 ceiling should
+tell you how loosely the category is drawn.
+
+Worth noting: several individual buildings in this search are sourced from Apartment List
+property pages, and those pages are useful. It is the **short-term search** that fails, not
+the site's building data.
+
+## How to search it effectively
+
+```
+https://www.apartmentlist.com/wa/bellevue/c/short-term-apartments-for-rent
+```
+
+Realistically there is no efficient path here:
+
+* **You cannot build a filtered URL.** The lease-length preference is quiz-only.
+* **You will hand over contact details** to get through the funnel.
+* **Expect follow-up calls.** This is a lead-gen business. Once Tom's number is in, properties
+  and the platform will call. For a senior, that is a real cost, not a minor annoyance — it
+  also means more unsolicited inbound to sort real from predatory.
+
+If you use it at all, use the **individual property pages** it hosts, which carry useful lease
+terms and pricing. Skip the short-term category page.
+
+## Does the filter actually work?
+
+**No — and the evidence is on the site's own page.**
+
+**Listings ON the short-term page still display 12- and 13-month terms.** That is not a
+subtle inference. A page that promises short-term apartments is showing year-long leases.
+The label is applied to inventory that contradicts it.
+
+**What that means:** the "short-term" categorization is **marketing, not data**. There is no
+structured lease-length field being queried. The category exists to capture search traffic
+from people typing "short term apartments Bellevue" — people like Bryan — and route them into
+the lead funnel. The **116 claimed short-term Bellevue apartments** cannot be taken at face
+value.
+
+Compare across this category:
+
+| Site | Filter reality |
+|---|---|
+| [Zumper](./Zumper.mdx) | **Real structured field.** Works. |
+| [Apartments.com](./Apartments_com.mdx) | Real filter, but property-level ("we sometimes do") |
+| [Zillow](./Zillow.mdx) | Keyword match — returns "no month-to-month" listings |
+| **Apartment List** | **Quiz-only, and the results contradict the label** |
+| [HotPads](./HotPads.mdx) | No filter exists at all |
+
+Apartment List is near the bottom of that ranking, and it is the only one that also **costs
+you your phone number** to find out.
+
+## Links
+
+* [Overview](../../overview.mdx)
+* [Zumper](./Zumper.mdx) — a real structured short-term filter and a shareable URL. **Use this
+  instead.**
+* [PadMapper](./PadMapper.mdx) — the same working filter with a map
+* [Apartments.com](./Apartments_com.mdx) — bigger managed-building database, honest-ish filter
+* [Zillow](./Zillow.mdx) — the other filter that misleads, at least without a quiz
+* [Furnished Finder](../platform/Furnished_Finder.mdx) — 30-day native, free for renters, no funnel
+* Source: https://www.apartmentlist.com/wa/bellevue/c/short-term-apartments-for-rent
