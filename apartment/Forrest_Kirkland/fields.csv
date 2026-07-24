@@ -1,0 +1,170 @@
+Field,Section,Form,Notes
+First Name,Personal Information,Rental Application,Full name exactly as on driver's license or govt ID
+Middle Name,Personal Information,Rental Application,Checkbox: I do not have a middle name
+Last Name,Personal Information,Rental Application,
+Date of Birth,Personal Information,Rental Application,
+Gender,Personal Information,Rental Application,Checkbox: Prefer not to answer
+Marital Status,Personal Information,Rental Application,Checkbox: Prefer not to answer
+Social Security #,Personal Information,Rental Application,Checkbox: I do not have a social security #
+Driver's License/Government Issued Id #,Personal Information,Rental Application,
+Government ID Issuing Country/State,Personal Information,Rental Application,
+Primary Language,Personal Information,Rental Application,
+Phone Number,Personal Information,Rental Application,
+Email Address,Personal Information,Rental Application,
+Highest degree or level of school completed,Personal Information,Rental Application,Checkbox: Prefer not to answer
+Employment Status,Employment Information,Rental Application,Options: Employed / Not Employed / Retired / Student / Other
+Employer,Employment Information,Rental Application,
+Employer Address,Employment Information,Rental Application,
+City,Employment Information,Rental Application,
+State,Employment Information,Rental Application,
+Zip Code,Employment Information,Rental Application,
+Employer's Phone #,Employment Information,Rental Application,
+Job Title,Employment Information,Rental Application,
+Occupation Type,Employment Information,Rental Application,
+Monthly Income,Employment Information,Rental Application,
+Dates of Employment,Employment Information,Rental Application,
+Supervisor's Name,Employment Information,Rental Application,
+Do you work from home?,Employment Information,Rental Application,
+Additional Monthly Income,Employment Information,Rental Application,
+Additional Income Source,Employment Information,Rental Application,
+Country,Address Information,Rental Application,
+Address,Address Information,Rental Application,
+Address (line two),Address Information,Rental Application,
+City,Address Information,Rental Application,
+State,Address Information,Rental Application,
+Zip Code,Address Information,Rental Application,
+Dates of Residency,Address Information,Rental Application,
+Apartment Community,Address Information,Rental Application,
+Management Company,Address Information,Rental Application,
+Management Company Phone,Address Information,Rental Application,
+Monthly Rent/Mortgage Payment,Address Information,Rental Application,
+Reason For Moving,Address Information,Rental Application,
+Was 30 Days Notice Given,Address Information,Rental Application,Options: Yes / No / N/A
+Employer,Previous Employment Information,Rental Application,
+Employer Address,Previous Employment Information,Rental Application,
+City,Previous Employment Information,Rental Application,
+State,Previous Employment Information,Rental Application,
+Zip Code,Previous Employment Information,Rental Application,
+Employer's Phone #,Previous Employment Information,Rental Application,
+Job Title,Previous Employment Information,Rental Application,
+Monthly Income,Previous Employment Information,Rental Application,
+Dates of Employment,Previous Employment Information,Rental Application,
+Supervisor's Name,Previous Employment Information,Rental Application,
+Country,Previous Address,Rental Application,
+Address,Previous Address,Rental Application,
+Address (line two),Previous Address,Rental Application,
+City,Previous Address,Rental Application,
+State,Previous Address,Rental Application,
+Zip Code,Previous Address,Rental Application,
+Dates of Residency,Previous Address,Rental Application,
+Apartment Community,Previous Address,Rental Application,
+Management Company,Previous Address,Rental Application,
+Management Company Phone,Previous Address,Rental Application,
+Monthly Rent/Mortgage Payment,Previous Address,Rental Application,
+Reason For Moving,Previous Address,Rental Application,
+Was 30 Days Notice Given,Previous Address,Rental Application,Options: Yes / No / N/A
+Do you have a Housing Voucher?,Screening Information,Rental Application,Options: Yes / No
+Have you ever been evicted?,Screening Information,Rental Application,Options: Yes / No
+If yes please explain (eviction),Screening Information,Rental Application,
+Have you ever been convicted of a felony?,Screening Information,Rental Application,Options: Yes / No; MA Only note re sealed court record
+If yes please explain (felony),Screening Information,Rental Application,
+Do you have any pets?,Other Information,Rental Application,Options: Yes / No
+Pet #1 Pet Type,Other Information,Rental Application,If applicable
+Pet #1 Breed,Other Information,Rental Application,If applicable
+Pet #1 Pet Name,Other Information,Rental Application,If applicable
+Pet #1 Weight,Other Information,Rental Application,If applicable
+Pet #1 Age,Other Information,Rental Application,If applicable
+Pet #1 Color,Other Information,Rental Application,If applicable
+Pet #2 Pet Type,Other Information,Rental Application,If applicable
+Pet #2 Breed,Other Information,Rental Application,If applicable
+Pet #2 Pet Name,Other Information,Rental Application,If applicable
+Pet #2 Weight,Other Information,Rental Application,If applicable
+Pet #2 Age,Other Information,Rental Application,If applicable
+Pet #2 Color,Other Information,Rental Application,If applicable
+Emergency Contact Name,Other Information,Rental Application,Person over age 18 who will not be living with you
+Emergency Contact Relationship,Other Information,Rental Application,
+Emergency Contact Phone Number,Other Information,Rental Application,
+Name,Other Occupants,Rental Application,Occupant #1; persons under 18 occupying unit without signing lease
+Relationship,Other Occupants,Rental Application,Occupant #1
+Date of Birth,Other Occupants,Rental Application,Occupant #1
+Name,Other Occupants,Rental Application,Occupant #2
+Relationship,Other Occupants,Rental Application,Occupant #2
+Date of Birth,Other Occupants,Rental Application,Occupant #2
+Applicant's Signature,Acknowledgment,Rental Application,
+Date,Acknowledgment,Rental Application,Applicant signature date
+Signature of Owner's Representative,Acknowledgment,Rental Application,
+Date,Acknowledgment,Rental Application,Owner representative signature date
+Name,Personal Information,Screening Supplement,Household member #1; full name exactly as on ID
+Gender,Personal Information,Screening Supplement,Household member #1; Options: M / F / Prefer not to answer
+Social Security #,Personal Information,Screening Supplement,Household member #1; Checkbox: I do not have a SS#
+Driver's License/Government Issued Id #,Personal Information,Screening Supplement,Household member #1
+Government ID Issuing Country/State,Personal Information,Screening Supplement,Household member #1
+Phone Number,Personal Information,Screening Supplement,Household member #1
+Email Address,Personal Information,Screening Supplement,Household member #1
+Name,Personal Information,Screening Supplement,Household member #2
+Gender,Personal Information,Screening Supplement,Household member #2; Options: M / F / Prefer not to answer
+Social Security #,Personal Information,Screening Supplement,Household member #2; Checkbox: I do not have a SS#
+Driver's License/Government Issued Id #,Personal Information,Screening Supplement,Household member #2
+Government ID Issuing Country/State,Personal Information,Screening Supplement,Household member #2
+Phone Number,Personal Information,Screening Supplement,Household member #2
+Email Address,Personal Information,Screening Supplement,Household member #2
+Name,Personal Information,Screening Supplement,Household member #3
+Gender,Personal Information,Screening Supplement,Household member #3; Options: M / F / Prefer not to answer
+Social Security #,Personal Information,Screening Supplement,Household member #3; Checkbox: I do not have a SS#
+Driver's License/Government Issued Id #,Personal Information,Screening Supplement,Household member #3
+Government ID Issuing Country/State,Personal Information,Screening Supplement,Household member #3
+Phone Number,Personal Information,Screening Supplement,Household member #3
+Email Address,Personal Information,Screening Supplement,Household member #3
+Name,Personal Information,Screening Supplement,Household member #4
+Gender,Personal Information,Screening Supplement,Household member #4; Options: M / F / Prefer not to answer
+Social Security #,Personal Information,Screening Supplement,Household member #4; Checkbox: I do not have a SS#
+Driver's License/Government Issued Id #,Personal Information,Screening Supplement,Household member #4
+Government ID Issuing Country/State,Personal Information,Screening Supplement,Household member #4
+Phone Number,Personal Information,Screening Supplement,Household member #4
+Email Address,Personal Information,Screening Supplement,Household member #4
+Address,Address Information,Screening Supplement,
+City,Address Information,Screening Supplement,
+State,Address Information,Screening Supplement,
+Zip Code,Address Information,Screening Supplement,
+Dates of Residency,Address Information,Screening Supplement,
+Apartment Community,Address Information,Screening Supplement,
+Monthly Rent/Mortgage Payment,Address Information,Screening Supplement,
+Reason For Moving,Address Information,Screening Supplement,
+Was 30 Days Notice Given,Address Information,Screening Supplement,Options: Yes / No / N/A
+Address,Previous Address,Screening Supplement,
+City,Previous Address,Screening Supplement,
+State,Previous Address,Screening Supplement,
+Zip Code,Previous Address,Screening Supplement,
+Dates of Residency,Previous Address,Screening Supplement,
+Apartment Community,Previous Address,Screening Supplement,
+Monthly Rent/Mortgage Payment,Previous Address,Screening Supplement,
+Reason For Moving,Previous Address,Screening Supplement,
+Was 30 Days Notice Given,Previous Address,Screening Supplement,Options: Yes / No / N/A
+Do you have any pets?,Other Information,Screening Supplement,Options: Yes / No
+Pet #1 Pet Type,Other Information,Screening Supplement,If applicable
+Pet #1 Breed,Other Information,Screening Supplement,If applicable
+Pet #1 Pet Name,Other Information,Screening Supplement,If applicable
+Pet #1 Weight,Other Information,Screening Supplement,If applicable
+Pet #1 Age,Other Information,Screening Supplement,If applicable
+Pet #1 Color,Other Information,Screening Supplement,If applicable
+Pet #2 Pet Type,Other Information,Screening Supplement,If applicable
+Pet #2 Breed,Other Information,Screening Supplement,If applicable
+Pet #2 Pet Name,Other Information,Screening Supplement,If applicable
+Pet #2 Weight,Other Information,Screening Supplement,If applicable
+Pet #2 Age,Other Information,Screening Supplement,If applicable
+Pet #2 Color,Other Information,Screening Supplement,If applicable
+Emergency Contact Name,Other Information,Screening Supplement,Person over age 18 who will not be living with you
+Emergency Contact Relationship,Other Information,Screening Supplement,
+Emergency Contact Phone Number,Other Information,Screening Supplement,
+Have you ever been convicted of a crime?,Screening Information,Screening Supplement,Options: Yes / No
+Conviction type,Screening Information,Screening Supplement,Options: Felony / Misdemeanor / both
+Required to register with sex offender registry?,Screening Information,Screening Supplement,Any household member; Options: Yes / No
+Ever evicted from federally funded housing program for a lease violation?,Screening Information,Screening Supplement,Including drug use or failure to report a crime; Options: Yes / No
+If Yes when (eviction),Screening Information,Screening Supplement,
+License Plate #,Demographics,Screening Supplement,Vehicle #1
+Auto-Make/Model/Color,Demographics,Screening Supplement,Vehicle #1
+License Plate #,Demographics,Screening Supplement,Vehicle #2
+Auto-Make/Model/Color,Demographics,Screening Supplement,Vehicle #2
+Highest degree or level of school completed,Demographics,Screening Supplement,Prefer not to answer (circle)
+Job Title/Occupation,Demographics,Screening Supplement,
+Work from home,Demographics,Screening Supplement,Options: Yes / No

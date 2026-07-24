@@ -1,0 +1,170 @@
+Page,Section,Field
+1,Personal Information,First Name
+1,Personal Information,Middle Name
+1,Personal Information,Last Name
+1,Personal Information,Date of Birth
+1,Personal Information,Gender
+1,Personal Information,Marital Status
+1,Personal Information,Social Security #
+1,Personal Information,Driver's License/Government Issued Id #
+1,Personal Information,Government ID Issuing Country/State
+1,Personal Information,Primary Language
+1,Personal Information,Phone Number
+1,Personal Information,Email Address
+1,Personal Information,Highest degree or level of school completed
+1,Address Information,Country
+1,Address Information,Address
+1,Address Information,Address (line two)
+1,Address Information,City
+1,Address Information,State
+1,Address Information,Zip Code
+1,Address Information,Dates of Residency
+1,Address Information,Apartment Community
+1,Address Information,Management Company
+1,Address Information,Management Company Phone
+1,Address Information,Monthly Rent/Mortgage Payment
+1,Address Information,Reason For Moving
+1,Address Information,Was 30 Days Notice Given
+1,Previous Address,Country
+1,Previous Address,Address
+1,Previous Address,Address (line two)
+1,Previous Address,City
+1,Previous Address,State
+1,Previous Address,Zip Code
+1,Previous Address,Dates of Residency
+1,Previous Address,Apartment Community
+1,Previous Address,Management Company
+1,Previous Address,Management Company Phone
+1,Previous Address,Monthly Rent/Mortgage Payment
+1,Previous Address,Reason For Moving
+1,Previous Address,Was 30 Days Notice Given
+1,Employment Information,Employment Status
+1,Employment Information,Employer
+1,Employment Information,Employer Address
+1,Employment Information,City
+1,Employment Information,State
+1,Employment Information,Zip Code
+1,Employment Information,Employer's Phone #
+1,Employment Information,Job Title
+1,Employment Information,Occupation Type
+1,Employment Information,Monthly Income
+1,Employment Information,Dates of Employment
+1,Employment Information,Supervisor's Name
+1,Employment Information,Do you work from home?
+1,Employment Information,Additional Monthly Income
+1,Employment Information,Additional Income Source
+1,Previous Employment Information,Employer
+1,Previous Employment Information,Employer Address
+1,Previous Employment Information,City
+1,Previous Employment Information,State
+1,Previous Employment Information,Zip Code
+1,Previous Employment Information,Employer's Phone #
+1,Previous Employment Information,Job Title
+1,Previous Employment Information,Monthly Income
+1,Previous Employment Information,Dates of Employment
+1,Previous Employment Information,Supervisor's Name
+1,Screening Information,Do you have a Housing Voucher?
+1,Screening Information,Have you ever been evicted?
+1,Screening Information,If yes please explain
+1,Screening Information,Have you ever been convicted of a felony?
+1,Screening Information,If yes please explain
+1,Other Information,Do you have any pets?
+1,Other Information,Pet #1 Pet Type
+1,Other Information,Pet #1 Breed
+1,Other Information,Pet #1 Pet Name
+1,Other Information,Pet #1 Weight
+1,Other Information,Pet #1 Age
+1,Other Information,Pet #1 Color
+1,Other Information,Pet #1 Date of Birth
+1,Other Information,Pet #2 Pet Type
+1,Other Information,Pet #2 Breed
+1,Other Information,Pet #2 Pet Name
+1,Other Information,Pet #2 Weight
+1,Other Information,Pet #2 Age
+1,Other Information,Pet #2 Color
+1,Other Information,Pet #2 Date of Birth
+1,Other Occupants (under 18),Name
+1,Other Occupants (under 18),Relationship
+1,Other Occupants (under 18),Date of Birth
+1,Emergency Contact,Name
+1,Emergency Contact,Relationship
+1,Emergency Contact,Date of Birth
+1,Emergency Contact,Phone Number
+1,Acknowledgment,Applicant's Signature
+1,Acknowledgment,Date
+1,Acknowledgment,Signature of Owner's Representative
+1,Acknowledgment,Date
+2,Personal Information (Household Member 1),Name
+2,Personal Information (Household Member 1),Gender
+2,Personal Information (Household Member 1),Social Security #
+2,Personal Information (Household Member 1),Driver's License/Government Issued Id #
+2,Personal Information (Household Member 1),Government ID Issuing Country/State
+2,Personal Information (Household Member 1),Phone Number
+2,Personal Information (Household Member 1),Email Address
+2,Personal Information (Household Member 2),Name
+2,Personal Information (Household Member 2),Gender
+2,Personal Information (Household Member 2),Social Security #
+2,Personal Information (Household Member 2),Driver's License/Government Issued Id #
+2,Personal Information (Household Member 2),Government ID Issuing Country/State
+2,Personal Information (Household Member 2),Phone Number
+2,Personal Information (Household Member 2),Email Address
+2,Personal Information (Household Member 3),Name
+2,Personal Information (Household Member 3),Gender
+2,Personal Information (Household Member 3),Social Security #
+2,Personal Information (Household Member 3),Driver's License/Government Issued Id #
+2,Personal Information (Household Member 3),Government ID Issuing Country/State
+2,Personal Information (Household Member 3),Phone Number
+2,Personal Information (Household Member 3),Email Address
+2,Personal Information (Household Member 4),Name
+2,Personal Information (Household Member 4),Gender
+2,Personal Information (Household Member 4),Social Security #
+2,Personal Information (Household Member 4),Driver's License/Government Issued Id #
+2,Personal Information (Household Member 4),Government ID Issuing Country/State
+2,Personal Information (Household Member 4),Phone Number
+2,Personal Information (Household Member 4),Email Address
+2,Address Information,Address
+2,Address Information,City
+2,Address Information,State
+2,Address Information,Zip Code
+2,Address Information,Dates of Residency
+2,Address Information,Apartment Community
+2,Address Information,Monthly Rent/Mortgage Payment
+2,Address Information,Reason For Moving
+2,Address Information,Was 30 Days Notice Given
+2,Previous Address,Address
+2,Previous Address,City
+2,Previous Address,State
+2,Previous Address,Zip Code
+2,Previous Address,Dates of Residency
+2,Previous Address,Apartment Community
+2,Previous Address,Monthly Rent/Mortgage Payment
+2,Previous Address,Reason For Moving
+2,Previous Address,Was 30 Days Notice Given
+2,Other Information,Do you have any pets?
+2,Other Information,Pet #1 Pet Type
+2,Other Information,Pet #1 Breed
+2,Other Information,Pet #1 Pet Name
+2,Other Information,Pet #1 Weight
+2,Other Information,Pet #1 Age
+2,Other Information,Pet #1 Color
+2,Other Information,Pet #2 Pet Type
+2,Other Information,Pet #2 Breed
+2,Other Information,Pet #2 Pet Name
+2,Other Information,Pet #2 Weight
+2,Other Information,Pet #2 Age
+2,Other Information,Pet #2 Color
+2,Emergency Contact,Name
+2,Emergency Contact,Relationship
+2,Emergency Contact,Phone Number
+2,Screening Information,Have you ever been convicted of a crime?
+2,Screening Information,Felony or Misdemeanor
+2,Screening Information,Required to register with a sex offender registry?
+2,Screening Information,Ever evicted from a federally funded housing program?
+2,Screening Information,If yes when
+2,Demographics,License Plate # (1)
+2,Demographics,Auto-Make/Model/Color (1)
+2,Demographics,License Plate # (2)
+2,Demographics,Auto-Make/Model/Color (2)
+2,Demographics,Highest degree or level of school completed
+2,Demographics,Job Title/Occupation
+2,Demographics,Work from home

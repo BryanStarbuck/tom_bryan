@@ -1,0 +1,178 @@
+TOM STARBUCK - RENTAL APPLICATION ANSWERS (cleaned up)
+Source: dad_info.txt
+Form: Fairfield "Rental Application for Residents and Occupants" (page 1)
+      + "Screening Supplement to Rental Eligibility Application" (page 2)
+
+
+====================================================================
+PAGE 1 - RENTAL APPLICATION FOR RESIDENTS AND OCCUPANTS
+====================================================================
+
+PERSONAL INFORMATION
+  First Name                          Thomas
+  Middle Name                         Reynolds
+  Last Name                           Starbuck
+  Date of Birth                       10/15/1945
+  Gender                              Male
+  Marital Status                      Prefer not to answer
+  Social Security #                   572-62-7741
+  Driver's License / Govt ID #        WDL13S68F83B  (issued 9/13/2024)
+  Government ID Issuing Country/State USA / WA          <-- VERIFY (see NOTES)
+  Primary Language                    English
+  Phone Number                        (not provided)    <-- NEEDED
+  Email Address                       (not provided)    <-- NEEDED
+  Highest degree / level of school    Master's Degree; Community College
+                                      Teaching Credential
+
+EMPLOYMENT INFORMATION
+  Employment Status                   Retired
+  Employer                            Retired (formerly Oceanside Police Dept.)
+  Employer Address                    N/A - Retired
+  City / State / Zip                  N/A
+  Employer's Phone #                  N/A
+  Job Title                           Retired - Police Officer
+  Occupation Type                     Retired / Law Enforcement
+  Monthly Income                      (not provided)    <-- NEEDED
+  Dates of Employment                 N/A - Retired
+  Supervisor's Name                   N/A
+  Do you work from home?              No
+  Additional Monthly Income           (not provided)
+  Additional Income Source            (not provided)
+
+ADDRESS INFORMATION (current)
+  Country                             USA
+  Address                             800 W Community College Dr, #198
+  Address (line two)                  -
+  City / State / Zip                  San Jacinto, CA 92583
+  Dates of Residency                  3/3/2016 - Present
+  Apartment Community                 Heritage Ranch
+  Management Company                  Self-managed (Heritage Ranch HOA)
+  Management Company Phone            (951) 654-3366
+  Monthly Rent/Mortgage Payment       $218/mo (HOA)
+  Reason For Moving                   Relocating to Washington     <-- CONFIRM
+  Was 30 Days Notice Given            No
+
+PREVIOUS EMPLOYMENT INFORMATION
+  Employer                            Los Angeles County Sheriff Dept.
+  Employer Address                    211 W Temple St
+  City / State / Zip                  Los Angeles, CA 90012
+  Employer's Phone #                  (213) 229-1885
+  Job Title                           Deputy Sheriff - Sergeant
+  Monthly Income                      $1,250
+  Dates of Employment                 1/1/1970 - 1/1/1988
+  Supervisor's Name                   Deceased
+
+PREVIOUS ADDRESS
+  Country                             USA
+  Address                             1286 Discovery St, #137
+  Address (line two)                  -
+  City / State / Zip                  San Marcos, CA 92708
+  Dates of Residency                  3/3/1991 - 3/3/2016
+  Apartment Community                 Caritas
+  Management Company                  Caritas
+  Management Company Phone            (not provided)
+  Monthly Rent/Mortgage Payment       $500/mo
+  Reason For Moving                   Purchased home in San Jacinto <-- CONFIRM
+  Was 30 Days Notice Given            No
+
+SCREENING INFORMATION
+  Do you have a Housing Voucher?      No
+  Have you ever been evicted?         No
+  If yes, please explain              N/A
+  Ever convicted of a felony?         No
+  If yes, please explain              N/A
+
+OTHER INFORMATION
+  Do you have any pets?               No
+  Pet #1 / Pet #2                     N/A
+  Emergency Contact Name              Bryan Starbuck
+  Emergency Contact Relationship      Son
+  Emergency Contact Phone Number      (425) 949-6801
+
+OTHER OCCUPANTS (persons under 18)
+  Occupant #1                         None
+  Occupant #2                         None
+
+ACKNOWLEDGMENT
+  Applicant's Signature               (sign by hand)
+  Date                                (date by hand)
+
+
+====================================================================
+PAGE 2 - SCREENING SUPPLEMENT (household members over 18)
+====================================================================
+
+HOUSEHOLD MEMBER #1
+  Name                                Thomas Reynolds Starbuck
+  Gender                              M
+  Social Security #                   572-62-7741
+  Driver's License / Govt ID #        WDL13S68F83B
+  Government ID Issuing Country/State USA / WA          <-- VERIFY
+  Phone Number                        (not provided)    <-- NEEDED
+  Email Address                       (not provided)    <-- NEEDED
+
+HOUSEHOLD MEMBERS #2, #3, #4         None - single occupant household
+
+ADDRESS INFORMATION (current)
+  Address                             800 W Community College Dr, #198
+  City / State / Zip                  San Jacinto, CA 92583
+  Dates of Residency                  3/3/2016 - Present
+  Apartment Community                 Heritage Ranch
+  Monthly Rent/Mortgage Payment       $218/mo (HOA)
+  Reason For Moving                   Relocating to Washington     <-- CONFIRM
+  Was 30 Days Notice Given            No
+
+PREVIOUS ADDRESS
+  Address                             1286 Discovery St, #137
+  City / State / Zip                  San Marcos, CA 92708
+  Dates of Residency                  3/3/1991 - 3/3/2016
+  Apartment Community                 Caritas
+  Monthly Rent/Mortgage Payment       $500/mo
+  Reason For Moving                   Purchased home in San Jacinto <-- CONFIRM
+  Was 30 Days Notice Given            No
+
+OTHER INFORMATION
+  Do you have any pets?               No
+  Pet #1 / Pet #2                     N/A
+  Emergency Contact Name              Bryan Starbuck
+  Emergency Contact Relationship      Son
+  Emergency Contact Phone Number      (425) 949-6801
+
+SCREENING INFORMATION
+  Ever convicted of a crime?          No
+  Felony / Misdemeanor                N/A
+  Sex offender registry required?     No
+  Ever evicted from federally funded
+    housing program?                  No
+  If yes, when                        N/A
+
+DEMOGRAPHICS
+  License Plate #1                    DP88676
+  Auto Make/Model/Color #1            2017 Jeep Patriot, Gray
+  License Plate #2                    None
+  Auto Make/Model/Color #2            None
+  Highest degree / level of school    Master's Degree
+  Job Title/Occupation                Retired - Oceanside Police Dept.
+  Work from home                      No
+
+
+====================================================================
+NOTES / STILL NEEDED
+====================================================================
+* Phone number and email address for Tom are missing everywhere in
+  dad_info.txt. The only phone numbers present are the Heritage Ranch
+  management office (951) 654-3366, the L.A. County Sheriff Dept.
+  (213) 229-1885, and Bryan's cell (425) 949-6801.
+* Government ID issuing state assumed to be Washington because the
+  license number starts with "WDL" (Washington format), but Tom's
+  address is in California. Confirm before submitting.
+* Current monthly income is not stated. The $1,250 in dad_info.txt is
+  listed with the L.A. County Sheriff Dept. job, so it was entered as
+  previous-employment income. Retirement/pension/Social Security income
+  should be added before submitting.
+* "Reason For Moving" was never stated for either address; the two
+  entries above are reasonable placeholders - confirm or replace.
+* Marital status was not stated - "Prefer not to answer" is checked.
+* "Job: Oceanside PD" from the top of dad_info.txt was treated as the
+  most recent (now retired) job, and "Los Angeles County Sheriff Dept."
+  as the previous employer, since dad_info.txt labels it "Prev employ".

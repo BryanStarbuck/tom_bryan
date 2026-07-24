@@ -1,0 +1,18 @@
+
+OUTPUT_DIR is dir  ./out/
+
+Output files:
+        page_1.png
+        page_2.png
+        dad_info_cleanedup.txt
+
+
+Look at the CSVs and text files in this directory. They are from the form, especially page 1 and page 2 in the images directory. You can also look at the page 1 and page 2 images in the images directory.
+
+The goal of this prompt is to output two new images, which are PNG files in the out directory, and they are the same form, that same image from images page 1: output page_1.png, and so on. You're going to be taking the output, the same form. You'll have the text very cleaned up, and the goal is to fill in the text values in the right fields. 
+
+See dad_info.txt. That file should have the values to go to the form. It was generally filled out in order, in correct order. The bottom half might be a little bit different, but generally they're trying to fill them out from top down in sections. Try to align the values. 
+
+You'll output that cleaned up version of DadInfo in the output directory, and you also create those PNGs. The goal is to create the form that looks the same as the input but very, very cleaned up, but then you're filling in the answers. Do the best you can. 
+
+
