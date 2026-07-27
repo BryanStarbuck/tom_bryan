@@ -1,0 +1,178 @@
+---
+title: LACERA Overview — Tom Starbuck (Retired LA County Sheriff)
+description: Where LACERA lives online, how to log in, how to get a login account by phone, and where downloaded statements are stored.
+last_verified: 2026-07-27
+---
+
+# LACERA Overview
+
+LACERA = **Los Angeles County Employees Retirement Association**. This is the pension
+system for Los Angeles County employees, including **Los Angeles County Sheriff's
+Department** personnel. Sheriff's Department members are **Safety** members (Safety
+Plan A, B, C, or D depending on hire date), as opposed to General members.
+
+LACERA administers both the **retirement (pension) benefit** and **retiree healthcare**
+for LA County retirees.
+
+---
+
+## 1. Websites
+
+| Purpose | URL |
+|---|---|
+| Main public website | https://www.lacera.gov/ |
+| **Login / member portal ("My LACERA")** | **https://home.mylacera.gov/lmpublic/login.xhtml** |
+| My LACERA info + sign-up landing page | https://www.lacera.gov/my-lacera |
+| Getting Started with My LACERA (setup videos) | https://www.lacera.gov/getting-started-my-lacera |
+| Retirees and Families hub | https://www.lacera.gov/retirees-and-families |
+| Retirement Payments (paydays, COLA, taxes, direct deposit) | https://www.lacera.gov/retirement-payments |
+| Reading Your Paystub | https://www.lacera.gov/retirement-payments/your-paystub |
+| Reading Your ADR (Automatic Deposit Receipt) | https://www.lacera.gov/retirement-payments/reading-your-adr |
+| Direct Deposit | https://www.lacera.gov/retirement-payments/direct-deposit |
+| Contact Us | https://www.lacera.gov/who-we-are/contact-us |
+| Safety Plan A/B Plan Book | https://www.lacera.gov/plan/safety-ab/plan-book/welcome |
+
+Note: `lacera.com` also resolves and serves the same content, but **`lacera.gov` is the
+official domain**. Always use `lacera.gov` / `mylacera.gov`.
+
+**The one URL that matters for logging in:**
+
+```
+https://home.mylacera.gov/lmpublic/login.xhtml
+```
+
+---
+
+## 2. Phone Numbers — how a retiree gets a login account
+
+If Tom does not yet have a My LACERA account, or is locked out, or cannot complete
+online registration, **call the Member Services Call Center**. They handle identity
+verification and account setup for retirees.
+
+| Line | Number | Hours (Pacific) |
+|---|---|---|
+| **Member Services Call Center (use this one)** | **800-786-6464** | Mon–Fri, 7:00 a.m. – 5:30 p.m. |
+| Retiree Healthcare | 800-786-6464 | Mon–Fri, 7:00 a.m. – 5:30 p.m. |
+| Business Line (main switchboard) | 626-564-6000 | Mon–Fri, 8:00 a.m. – 5:00 p.m. |
+| International (calling from outside the U.S.) | 626-564-6132 | Mon–Fri, 7:00 a.m. – 5:30 p.m. |
+| Fax | 626-564-6155 | — |
+
+**Email**
+* General retirement questions: `welcome@lacera.gov`
+* Retiree healthcare: `healthcare@lacera.gov`
+* Website problems: `webmaster@lacera.gov`
+
+**In person** (appointment required — no walk-ins)
+* Member Service Center, 300 N. Lake Avenue, Suite 100, Pasadena, CA 91101
+* Mon–Fri 7:00 a.m. – 5:00 p.m., closed for lunch 12:00–1:00 p.m., closed County holidays
+
+**Mailing address**
+* LACERA, P.O. Box 7060, Pasadena, CA 91109-7060
+
+### What to have ready when calling for a login
+
+LACERA does not publish its registration field list on the public site, so this is not
+confirmed — but expect them to ask for identity items in this range. Have all of it on
+hand before dialing:
+
+* Full legal name as it appears on the pension
+* Social Security number (or LACERA member/employee number if known)
+* Date of birth
+* Mailing address on file with LACERA
+* An email address to attach to the account (My LACERA signs in with **email +
+  password**, not a member number)
+
+**Open item:** confirm with the call center whether registration can be completed
+entirely online or whether LACERA mails a registration/PIN code to the address on file.
+Record the answer here once known.
+
+---
+
+## 3. What can be downloaded from My LACERA
+
+Once logged in, My LACERA is a 24/7 secure account and message center. Retired members
+can view and download:
+
+* **Annual Benefit Statement** — mailed/posted in the month following the member's
+  birthday. Shows personal member data, contributions on deposit, service credit, and
+  named beneficiaries.
+* **1099-R tax forms** — annual pension tax form.
+* **Automatic Deposit Receipts (ADRs)** — the direct-deposit equivalent of a paystub;
+  shows deposit amount, withholdings, deductions, and allowances.
+* **Paystubs** — statement of earnings for the monthly benefit payment.
+* **Pension verification letters** — proof-of-income letters for lenders, landlords,
+  senior housing applications, etc.
+* **Pathways / Spotlight newsletters**
+
+There is also a **paperless opt-in** inside My LACERA: turn it on and the annual benefit
+statement, ADRs, 1099-Rs, and newsletters are delivered electronically to the account
+instead of by mail. Turning this on is what makes everything reliably downloadable
+year-round.
+
+Self-service transactions available in the portal include updating address and contact
+info, tax withholding changes, direct deposit changes, beneficiary designations, and
+uploading documents to LACERA.
+
+---
+
+## 4. Where downloaded statements are saved
+
+All statements pulled from My LACERA are stored locally in this repo, under:
+
+```
+~/BGit/Bryan_git/tom_bryan/retirement/lacera/statements/
+```
+
+Directory layout (already created):
+
+```
+statements/
+├── annual_benefit_statements/     # Annual Benefit Statement PDFs
+├── 1099R_tax_forms/               # 1099-R pension tax forms, one per tax year
+├── deposit_receipts_ADR/          # Automatic Deposit Receipts / monthly paystubs
+└── pension_verification_letters/  # Proof-of-income letters
+```
+
+**File naming convention** — use the year (and month where monthly) first so files sort
+chronologically:
+
+| Document | Filename pattern | Example |
+|---|---|---|
+| Annual Benefit Statement | `YYYY_Annual_Benefit_Statement.pdf` | `2026_Annual_Benefit_Statement.pdf` |
+| 1099-R | `YYYY_1099R.pdf` | `2025_1099R.pdf` |
+| ADR / paystub | `YYYY-MM_ADR.pdf` | `2026-06_ADR.pdf` |
+| Pension verification letter | `YYYY-MM-DD_Pension_Verification_Letter.pdf` | `2026-07-27_Pension_Verification_Letter.pdf` |
+
+> These are sensitive financial documents containing SSN-adjacent data. Confirm whether
+> this repo is private before committing any downloaded PDFs; if it is public or shared,
+> keep `statements/` in `.gitignore` and store the files in the Large File Bridge
+> private repo instead.
+
+---
+
+## 5. Status / next steps
+
+* [ ] Confirm whether Tom already has a My LACERA account and which email is on it
+* [ ] If not: call **800-786-6464** (Mon–Fri, 7:00 a.m. – 5:30 p.m. PT) to register
+* [ ] Record here the actual registration requirements the call center states
+* [ ] Log in at https://home.mylacera.gov/lmpublic/login.xhtml
+* [ ] Turn on paperless delivery inside My LACERA
+* [ ] Download the most recent Annual Benefit Statement, latest 1099-R, and recent ADRs
+      into `statements/`
+* [ ] Confirm which Safety Plan (A / B / C / D) Tom retired under and note it here
+* [ ] Decide git-tracking policy for `statements/` (private repo vs. gitignore)
+
+---
+
+## Sources
+
+* [Welcome to LACERA.gov](https://www.lacera.gov/)
+* [Sign Up for My LACERA!](https://www.lacera.gov/my-lacera)
+* [My LACERA — Please Sign In or Register](https://home.mylacera.gov/lmpublic/login.xhtml)
+* [Getting Started with My LACERA](https://www.lacera.gov/getting-started-my-lacera)
+* [Contact Us | LACERA](https://www.lacera.gov/who-we-are/contact-us)
+* [Retirees and Families | LACERA](https://www.lacera.gov/retirees-and-families)
+* [Retirement Payments | LACERA](https://www.lacera.gov/retirement-payments)
+* [Reading Your ADR | LACERA](https://www.lacera.com/retirement-payments/reading-your-adr)
+* [Plan Book Safety AB — Welcome to Safety Plans A/B](https://www.lacera.com/plan/safety-ab/plan-book/welcome)
+* [Los Angeles County Employees Retirement Association — Wikipedia](https://en.wikipedia.org/wiki/Los_Angeles_County_Employees_Retirement_Association)

@@ -1,0 +1,450 @@
+# ============================================================================
+# TOM STARBUCK — MASTER INFORMATION FILE
+# ============================================================================
+# Every known fact about Thomas Reynolds Starbuck, gathered from every file in
+# ~/BGit/Bryan_git/tom_bryan/. One place to look things up; one place to fix
+# things when they change.
+#
+# SENSITIVE: contains SSN, driver's license number, date of birth, bank
+# deposit amounts, and insurance policy numbers. Do not publish or share this
+# file. Consider whether it belongs in a git repo at all.
+# ============================================================================
+
+meta:
+  subject: Thomas Reynolds Starbuck
+  relationship_to_owner: Father of Bryan Starbuck (repo owner)
+  compiled_on: 2026-07-27
+  confidence_legend:
+    confirmed: Read directly off a government ID, bank record, or official statement.
+    reported: Stated by Tom or Bryan in a notes file; not independently verified.
+    unknown: Not found anywhere in this repo.
+  sources:
+    - apartment/Forrest_Kirkland/dad_info.txt
+    - apartment/Forrest_Kirkland/out/dad_info_cleanedup.txt
+    - apartment/Forrest_Kirkland/final/Forrest_Apartment.pdf.pdf   # signed application
+    - apartment/search/low_income/low_income.txt
+    - apartment/search/low_income/estimated_Yearly_income.txt      # superseded estimates
+    - apartment/search/goals.txt
+    - retirement/calpers/viewWarrantStatement.html.pdf
+    - id/IMG_0282.jpg, id/IMG_0284.jpg                             # WA driver license, front + back
+    - id/IMG_0283.jpg                                              # Social Security card
+    - id/IMG_0281.jpg                                              # AAA auto insurance card
+    - id/80636488906__0EB9142D-106E-4E9B-BE89-53508B7C879F.jpg     # bank deposit screenshot
+    - temp_apartment/CLAUDE.md, temp_apartment/overview.mdx
+    - broker/goals_broker.txt
+
+# ============================================================================
+identity:
+  name:
+    first: Thomas
+    middle: Reynolds
+    last: Starbuck
+    full_legal: Thomas Reynolds Starbuck
+    goes_by: Tom
+    signature_form: Tom Starbuck
+    formal_short: Thomas R. Starbuck        # form used by CalPERS and Social Security
+  date_of_birth: 1945-10-15
+  age: 80                                   # as of 2026-07-27; turns 81 on 2026-10-15
+  age_note: >-
+    apartment/search/goals.txt says "about 84". That is wrong — the DOB on his
+    driver's license makes him 80. Age matters for 55+/62+ senior housing
+    eligibility, so use 80.
+  gender: Male
+  marital_status:
+    value: unknown
+    on_application: Prefer not to answer
+    note: >-
+      Income records include a line for "Mom's retirement" ($1,406/yr), which
+      implies a surviving spouse or a survivor benefit. Clarify — it decides
+      whether housing applications are 1-person or 2-person households, which
+      changes income-limit eligibility significantly.
+  primary_language: English
+  physical:                                 # confirmed — WA driver license
+    height: 6'00"
+    weight_lb: 174
+    eye_color: Blue
+    hair: White/grey
+
+# ============================================================================
+contact:
+  phone:
+    value: unknown
+    confidence: unknown
+    note: >-
+      Tom's own phone number appears NOWHERE in this repo. It was left blank on
+      the signed rental application. This is the single most-needed missing
+      field — every apartment and broker will ask for it first.
+  email:
+    value: unknown
+    confidence: unknown
+    note: Also blank on the signed rental application. Needed.
+  emergency_contact:
+    name: Bryan Starbuck
+    relationship: Son
+    phone: (425) 949-6801
+    email: Bryan@thestarbucks.com
+    note: Person over 18 who will NOT be living with Tom.
+
+# ============================================================================
+identification:
+  social_security:
+    number: 572-62-7741
+    card_on_file: id/IMG_0283.jpg
+    card_address: Star Route Box 45, Helendale, CA        # original issuance address, historical
+  drivers_license:
+    number: WDL13S68F83B
+    state: Washington
+    country: USA
+    issued: 2024-09-13
+    expires: 2028-10-15
+    class: (none listed)
+    endorsements: None
+    restrictions: None
+    real_id: false                          # card reads "FEDERAL LIMITS APPLY"
+    address_on_license: 8300 160th Ave NE, Apt 303, Redmond, WA 98052-3854
+    dd_number: WDL13S68F83BT091324041206
+    back_barcode_id: "16070001102045301"
+    images: [id/IMG_0282.jpg, id/IMG_0284.jpg]
+    note: >-
+      He holds a WASHINGTON license listing a REDMOND address, while his mail
+      and rental application list SAN JACINTO, CA. Confirm which is his legal
+      residence before submitting anything — several forms flagged this.
+
+# ============================================================================
+addresses:
+  current_of_record:
+    label: Heritage Ranch (San Jacinto, CA)
+    street: 800 W Community College Dr, #198
+    street_alt_format: 800 W COMMUNITY COLLEGE DR, SPC 198   # as CalPERS addresses him
+    city: San Jacinto
+    state: CA
+    zip: 92583-7198
+    country: USA
+    resident_since: 2016-03-03
+    to: Present
+    community: Heritage Ranch
+    management: Self-managed (Heritage Ranch HOA)
+    management_phone: (951) 654-3366
+    monthly_payment: $218/mo HOA
+    ownership: Owned (he is selling this home to fund the move)
+    thirty_day_notice_given: false
+    reason_for_moving: Relocating to Washington
+    confidence: confirmed          # CalPERS mails here as of 2026-07-27
+
+  washington_on_drivers_license:
+    street: 8300 160th Ave NE, Apt 303
+    city: Redmond
+    state: WA
+    zip: 98052-3854
+    since: 2024-09-13 (license issue date)
+    confidence: confirmed          # on the license itself
+    note: Unclear whether he lives here, has lived here, or used it to establish WA residency.
+
+  previous:
+    - label: Caritas (San Marcos, CA)
+      street: 1286 Discovery St, #137
+      city: San Marcos
+      state: CA
+      zip: 92708
+      from: 1991-03-03
+      to: 2016-03-03
+      community: Caritas
+      management: Caritas
+      monthly_rent: $500/mo
+      thirty_day_notice_given: false
+      reason_for_moving: Purchased home in San Jacinto
+    - label: Historical (from Social Security card)
+      street: Star Route Box 45
+      city: Helendale
+      state: CA
+      era: original SSN issuance — decades old, reference only
+
+# ============================================================================
+employment:
+  status: Retired
+  works_from_home: false
+  current_employer: None — retired
+  most_recent_job:
+    employer: Oceanside Police Department
+    title: Police Officer
+    occupation_type: Retired / Law Enforcement
+    years_of_service: ~13
+    pension_system: CalPERS
+    note: Employer address/phone/dates recorded as "N/A — Retired" on the application.
+  previous_job:
+    employer: Los Angeles County Sheriff's Department
+    title: Deputy Sheriff — Sergeant
+    address: 211 W Temple St, Los Angeles, CA 90012
+    phone: (213) 229-1885
+    from: 1970-01-01
+    to: 1988-01-01
+    years_of_service: ~18 (per dates; other notes say 23)
+    monthly_income_at_the_time: $1,250
+    supervisor: Deceased
+    pension_system: LACERA
+  career_summary: >-
+    Career law enforcement — LA County Sheriff's Department, then Oceanside PD.
+    Two public-safety pensions (LACERA + CalPERS) plus Social Security.
+
+education:
+  highest_level: Master's Degree
+  credentials:
+    - Master's Degree
+    - Community College Teaching Credential
+
+# ============================================================================
+income:
+  summary:
+    total_annual_gross: 67265        # USD/yr — EXACT, confirmed, not estimated
+    total_monthly_approx: 5605
+    household_size: 1
+    confidence: confirmed
+  annual_sources:
+    - source: LACERA (LA County Sheriff's pension)
+      amount_per_year: 31105
+    - source: CalPERS / PERS (Oceanside PD pension)
+      amount_per_year: 20294
+    - source: Social Security
+      amount_per_year: 14460
+    - source: Mom's retirement
+      amount_per_year: 1406
+  actual_monthly_deposits:           # Bank of America, from id/8063... screenshot
+    - source: CalPERS (State Retirement PERS)
+      net_deposit: 1498.62
+      posted: 2026-07-01
+      bank_descriptor: "PUB EMP RET SYS DES:RET BENFT ID:W7100877"
+    - source: LACERA (LA County Sheriff's Retirement)
+      net_deposit: 2187.88
+      posted: 2026-06-30
+      bank_descriptor: "LACERA DES:BENEFIT ID:XXXXX7741"
+    - source: Social Security
+      net_deposit: 1095.00
+      posted: 2026-07-15
+      bank_descriptor: "SSA TREAS 310 DES:XXSOC SEC ID:XXXXX7741A"
+  reconciliation_note: >-
+    Net monthly deposits total ~$4,781/mo (~$57,378/yr), below the $67,265
+    gross annual figure. The gap is taxes and any health-premium withholding —
+    the yearly numbers are gross, the deposits are net. Housing programs count
+    GROSS, so use $67,265.
+  banking:
+    institution: Bank of America
+    note: Deposit screenshot only; no account numbers captured here.
+
+  calpers_detail:                    # retirement/calpers/viewWarrantStatement.html.pdf
+    statement_date: 2026-07-27
+    issue_date: 2026-08-01
+    payee: Thomas R. Starbuck
+    client_id: "2093624048"
+    fund: Public Employees' Retirement Fund
+    gross: 1736.31
+    base_allowance: 977.76
+    cola: 758.55
+    deductions_total: 237.69
+    federal_tax: 237.69
+    state_tax: 0.00
+    net: 1498.62
+    federal_tax_ytd: 1896.99
+    roll_control_no: W7983310
+    contact: 888-225-7377 / www.calpers.ca.gov
+
+  pension_notes:
+    windfall_elimination_repealed: true
+    detail: >-
+      Many CA law-enforcement jobs did not pay into Social Security, which used
+      to cut a retiree's SS benefit (Windfall Elimination Provision). The Social
+      Security Fairness Act (signed Jan 2025) repealed that, so Tom's Social
+      Security is NOT reduced by his two pensions.
+
+# ============================================================================
+assets_and_property:
+  home:
+    property: 800 W Community College Dr #198, San Jacinto, CA (Heritage Ranch)
+    status: Being sold to fund the move to Washington
+  vehicle:
+    year: 2017
+    make: Jeep
+    model: Patriot
+    color: Gray
+    license_plate: DP88676
+    vin: 1C4NJPBB9HD201...        # partially cut off in the photo — confirm full VIN
+    second_vehicle: None
+  auto_insurance:
+    carrier: AAA — Interinsurance Exchange of the Automobile Club (Southern California)
+    naic: "15598"
+    policy_number: CAA 192647129
+    named_insured: THOMAS REYNOLDS STARBUCK
+    drivers_on_policy: [Starbuck, Thomas Reynolds]
+    effective: 2026-05-17
+    expires: 2027-05-17
+    note: California policy — will need a Washington policy after the move.
+
+# ============================================================================
+household:
+  occupants: 1 — single-occupant household
+  other_adults: None
+  children_under_18: None
+  pets: None
+  pet_note: >-
+    temp_apartment/overview.mdx lists "Does Tom have a pet?" as an open
+    question, but the signed application says No. Treat as No.
+
+# ============================================================================
+screening_answers:              # as answered on the signed rental application
+  housing_voucher: false
+  ever_evicted: false
+  ever_evicted_federally_funded_housing: false
+  convicted_of_felony: false
+  convicted_of_any_crime: false
+  sex_offender_registry: false
+  explanations: N/A — all answers negative
+
+# ============================================================================
+housing_search:
+  status: Active — relocating from San Jacinto, CA to the Seattle Eastside.
+
+  long_term:
+    charter: Find a senior apartment in Redmond, WA or within ~20 minutes.
+    directory: apartment/
+    wants: Plain SENIOR APARTMENTS (55+/62+). NOT assisted living.
+    independent_living: Lower preference — kept in a separate file.
+    target_rent: ~$1,300/mo preferred; interest drops as it climbs toward $3,000/mo
+    location_priority:
+      1: Bellevue or Redmond
+      2: Kirkland
+      3: Factoria
+      4: Woodinville
+      5: Issaquah
+    epicenters:
+      - name: EPICENTER_1
+        value: I-405 / SR-520 interchange, Bellevue WA
+      - name: EPICENTER_2
+        value: 16430 NE 50th St, Redmond, WA 98052
+
+  temporary:
+    charter: Month-to-month place for 1–2 months while hunting for a lease.
+    directory: temp_apartment/
+    term: Month-to-month, 1–2 months, no long lease
+    budget_max: $3,300/mo
+    privacy: No cohabitating, no roommates. Sublets acceptable.
+    location_priority: [Redmond WA, East Bellevue WA, South Kirkland WA]
+    research_date: 2026-07-15
+    options_researched: 120
+    top_candidate: Larkspur Landing Bellevue — $2,550/mo, 15805 SE 37th St, Bellevue (Eastgate)
+    key_tip: >-
+      Book 30 nights, never 29. At 30 continuous days a guest becomes
+      "nontransient" under WAC 458-20-166 and lodging tax stops — worth
+      12–15% ($300–450/mo) on the Eastside.
+
+  broker_search:
+    charter: Find brokers who help seniors locate apartments.
+    directory: broker/
+    priority_areas: [Redmond, Bellevue, Kirkland]
+    also_acceptable: [Factoria, Issaquah, Woodinville]
+
+  applications_submitted:
+    - property: Forrest (Kirkland) — Fairfield-managed
+      directory: apartment/Forrest_Kirkland/
+      form: Rental Application for Residents and Occupants + Screening Supplement
+      status: Signed
+      left_blank: [phone number, email address, current monthly income]
+
+# ============================================================================
+housing_eligibility:            # against King County income limits, eff. 2025-04-01
+  household_size_used: 1
+  income_measured: 67265
+  king_county_caps_1_person:
+    ami_30: 33050
+    ami_50: 55000
+    ami_60: 66000
+    ami_80: 84150
+  king_county_caps_2_person:
+    ami_30: 37750
+    ami_50: 62850
+    ami_60: 75420
+    ami_80: 96150
+  verdicts:
+    hud_section_202:
+      qualifies: false
+      why: Needs ≤50% AMI ($55,000). Over by ~$12,265.
+    project_based_section_8:
+      qualifies: false
+      why: Targets ≤50% AMI in practice. Legally under the 80% ceiling, but realistically no.
+    kcha_subsidized:
+      qualifies: true
+      priority: low
+      why: Under the 80% AMI admission ceiling ($84,150), but units target ≤50% AMI and many waitlists are closed. Backup only.
+    lihtc_tax_credit:
+      qualifies: false
+      margin: Over the 60% AMI line ($66,000) by only $1,265
+      action: CALL EACH BUILDING. Two things can flip this to yes —
+              (a) a 2-person household raises the cap to $75,420,
+              (b) buildings count countable income differently.
+    arch_income_restricted:
+      qualifies: true
+      tier: 80% AMI tier only (not the 60% tier)
+      action: Ask Reunion at Redmond Ridge which AMI tier each open unit is set at.
+    market_rate_senior:
+      qualifies: true
+      why: No income cap. Most reliable path.
+      affordable_examples:
+        - Brandenwood Senior Apartments (Bellevue) — 62+, $1,655+
+        - Crossroads Active Senior Community / SHAG (Bellevue) — 55+, $1,750–2,500
+        - Reunion at Redmond Ridge — the 36 non-ARCH market units
+        - Park Plaza Apartments (Bellevue) — 55+, $3,700 (large share of monthly income)
+  residency_requirement:
+    required: false
+    detail: >-
+      No length-of-residency requirement — KCHA confirms you can apply from
+      anywhere. Some waitlists give a local preference, which affects how fast
+      you get in, not whether you qualify. Residency is not a barrier; income is.
+
+# ============================================================================
+family:
+  son:
+    name: Bryan Starbuck
+    relationship: Son
+    phone: (425) 949-6801
+    email: Bryan@thestarbucks.com
+    role: Doing the apartment/broker research; Tom's emergency contact.
+  mother:
+    name: unknown
+    status: unknown
+    note: >-
+      Referenced only as "Mom's retirement" ($1,406/yr) in the income records.
+      Whether she is living and whether she would live with Tom is unresolved —
+      and it directly changes housing eligibility (see housing_eligibility).
+
+# ============================================================================
+open_questions:
+  - id: phone
+    question: What is Tom's phone number?
+    why: Missing everywhere. Every apartment, broker, and application needs it.
+    priority: highest
+  - id: email
+    question: What is Tom's email address?
+    why: Blank on the signed application; needed for online applications.
+    priority: highest
+  - id: residence
+    question: Is his legal residence San Jacinto CA or Redmond WA?
+    why: WA driver's license says Redmond; all mail and the application say San Jacinto.
+    priority: high
+  - id: household_size
+    question: Will Mom live with him (1-person or 2-person household)?
+    why: A 2-person household raises the 60% AMI cap to $75,420 and opens up all the tax-credit buildings he currently misses by $1,265.
+    priority: high
+  - id: move_in_date
+    question: What is Tom's exact move-in date?
+    why: Every temporary-housing quote depends on it. Nothing can be priced without it.
+    priority: high
+  - id: current_monthly_income_on_forms
+    question: What figure should go in "Monthly Income" on applications?
+    why: Left blank on the signed application. Use ~$5,605/mo gross ($67,265/yr).
+    priority: medium
+  - id: vin
+    question: Full VIN for the 2017 Jeep Patriot?
+    why: The insurance card photo cuts off after 1C4NJPBB9HD201.
+    priority: low
+  - id: reason_for_moving
+    question: Confirm the "reason for moving" text on both address entries.
+    why: Those entries were placeholders written by Bryan, not stated by Tom.
+    priority: low
