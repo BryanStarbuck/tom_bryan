@@ -1,0 +1,23 @@
+PAGE 06 — HEA Page 6 of 12
+Template page: Compliance_Packet.pdf page 7
+
+Header fields: all blank.
+
+PART 4: ASSET INFORMATION — "Please choose one of the following"
+  Neither of the two lead-in choices has a visible mark, but assets ARE
+  listed below, so the effective answer is "I/We have assets."
+
+  1. RVs, ATVs, boats, antique cars, stamp collections ... NO (X in No)
+  2. Cash on hand ....................................... YES (X in Yes)
+       Cash Value: $2,600  (written "2,60_" with correction fluid over the
+       trailing character — value is partly obscured)
+       Interest Rate: 0 (slashed zero)   Annual Income: $0 (slashed zero)
+  3. Checking account(s) ................................ YES (X in Yes)
+       BANK NAME #1: BANK OF AMERICA   ACCOUNT NO. 184012443
+       Cash Value: $4,781.50   Interest Rate: 0%   Annual Income: $0
+       BANK NAME #2: blank
+  4. Savings account(s) ................................. YES (X in Yes)
+       BANK NAME #1: BANK OF AMERICA   ACCOUNT NO. 3251 3920 3961
+       Cash Value: $81,966.33   Interest Rate: blank   Annual Income: blank
+       BANK NAME #2: blank
+  5. Internet-based assets (Cash App, Venmo, PayPal) ..... NO (X in No)

@@ -1,0 +1,15 @@
+PAGE 07 — HEA Page 7 of 12
+Template page: Compliance_Packet.pdf page 8
+
+Header fields: all blank.
+
+PART 4: ASSET INFORMATION (items 6-10)
+  6. Debit card(s) not associated with a bank account ... YES (X in Yes)
+       BANK NAME #1: BANK OF AMERICA   LAST 4 DIGITS: 3799
+       Cash Value: $0 (slashed zero)  Interest Rate: 0  Annual Income: 0
+       BANK NAME #2: blank
+  7. Brokerage account(s) ............................... NO (X in No)
+  8. Capital investments ................................ NO (X in No)
+  9. Annuities .......................................... NO (X in No)
+ 10. Money market ...................................... NO (X in No)
+ All value/rate/income cells for 7-10 left blank.

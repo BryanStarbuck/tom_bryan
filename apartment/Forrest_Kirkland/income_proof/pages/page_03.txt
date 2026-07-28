@@ -1,0 +1,17 @@
+PAGE 03 — HEA Page 3 of 12
+Template page: Compliance_Packet.pdf page 4
+
+Header fields: all blank.
+
+PART 2: HOUSEHOLD INCOME (items 14-19)
+  14. Child support payments .................... NO (X in No)   $ blank; # children blank
+  15. Alimony/spousal support ................... NO (X in No)   $ blank
+  16. Regular payments from trusts, annuities,
+      inheritance, retirement funds or pensions . YES (X in Yes)
+      Sources listed (handwritten):
+        LOS ANGELES COUNTY SHERIFF ....... $ 2,689.50
+        PERS (CAL-PERS) .................. $ 1,736.31
+  17. Income from real estate/personal property . NO (X in No)   $ blank
+  18. Cash assistance from family/friends/others  NO (X in No)
+      Who provides: blank; frequency: none marked; average amount: blank
+  19. Earned income from online sources ......... NO (X in No)   $ blank

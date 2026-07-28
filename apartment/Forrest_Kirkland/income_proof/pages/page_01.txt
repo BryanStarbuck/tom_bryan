@@ -1,0 +1,22 @@
+PAGE 01  — Tax Credit Household Eligibility Application (HEA), Page 1 of 12
+Template page: Compliance_Packet.pdf page 2
+
+HEADER FIELDS (all left blank on the scan):
+  PROPERTY NAME: (blank)
+  UNIT NUMBER: (blank)
+  NO. OF BEDROOMS: (blank)
+  HOUSEHOLD (HH) NAME: (blank)
+  CURRENT HH SIZE: (blank)
+  ORIGINAL CERTIFICATION DATE: (blank)
+  EFFECTIVE DATE OF CERTIFICATION: (blank)
+  CERTIFICATION TYPE: neither "Initial Certification" nor "Recertification" marked
+
+PART 1: PEOPLE IN YOUR HOUSEHOLD
+  Row 1 (HEAD OF HOUSEHOLD):
+    Name: THOMAS R STARBUCK   (handwritten, all caps)
+    Date of Birth: 10/15/1945
+    SSN last 4: 7741
+    Full-Time Student: "N/A" is CIRCLED (i.e. not a student)
+  Rows 2-7: entirely blank (their preprinted N/A remains unmarked)
+
+No other handwriting on this page.

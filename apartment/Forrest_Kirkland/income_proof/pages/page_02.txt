@@ -1,0 +1,20 @@
+PAGE 02 — HEA Page 2 of 12
+Template page: Compliance_Packet.pdf page 3
+
+Header fields: all blank.
+
+PART 2: HOUSEHOLD INCOME (items 1-13). HH# column left blank on every row.
+   1. Self-employment .......................... NO (X in No)   $ blank
+   2. Employment wages/salary/overtime ......... NO (X in No)   $ blank
+   3. Unemployment benefits .................... NO (X in No)
+   4. Veteran's Administration / GI Bill ....... NO (X in No)   $ blank
+   5. Military income .......................... NO (X in No)   $ blank
+   6. Education financial assistance ........... NO (X in No)   $ blank
+   7. Retirement benefits from Social Security . YES (X in Yes) $ 1,291.70
+   8. SSI or SSDI .............................. NO (X in No)   $ blank
+   9. Unearned income, members age 17 or under . NO (X in No)   $ blank
+  10. Disability/death benefits other than SS .. NO (X in No)   $ blank
+  11. Worker's Compensation (L&I) .............. NO (X in No)   $ blank
+  12. Public housing/Rental assistance/Section 8 NO (X in No)   $ blank
+      Housing authority providing assistance: (blank)
+  13. Public assistance income (TANF, GAU, ...) . NO (X in No)  $ blank

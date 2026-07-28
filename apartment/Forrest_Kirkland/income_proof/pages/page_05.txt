@@ -1,0 +1,21 @@
+PAGE 05 — HEA Page 5 of 12
+Template page: Compliance_Packet.pdf page 6
+
+Header fields: all blank.
+
+PART 3: CURRENT EMPLOYMENT INFORMATION — first block only:
+  HH #: blank
+  HOUSEHOLD MEMBER NAME: THOMAS R STARBUCK
+  JOB TITLE: RETIRED
+  DATE HIRED: blank
+  EMPLOYER NAME: N/A
+  CONTACT PERSON: N/A
+  EMPLOYER EMAIL ADDRESS: — (dash)
+  EMPLOYER ADDRESS: — (dash)
+  CITY: — (dash)   STATE: blank   ZIP CODE: blank
+  EMPLOYER PHONE #: N/A
+  SALARY: $ 0 (written as a slashed zero)
+  PAY FREQUENCY: none marked
+  WORK HOURS PER WEEK: blank
+
+Employment blocks 2 and 3: entirely blank.
