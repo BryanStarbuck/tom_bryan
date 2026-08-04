@@ -132,7 +132,6 @@ Printed "Page #3" (PDF page 4) - income rows 14-19
 Printed "Page #6" (PDF page 7) - assets rows 1-5
 ================================
 * Row #2 Cash on Hand: put "1" in the first "HH#" column (column #1).
-  * "X" in the "NO" column.  Not the "Yes" column.
 * Row #3 Checking Account(s):
   * Put "1" in the first "HH#" column.
   * Column #4 (interest rate): change FROM 0% TO 1.96%
@@ -146,6 +145,9 @@ Printed "Page #6" (PDF page 7) - assets rows 1-5
 Printed "Page #7" (PDF page 8) - assets rows 6-10
 ================================
 * Row #6 Debit Card(s): put "1" in the first "HH#" column (column #1).
+  * "X" in the "NO" column.  Not the "Yes" column.
+
+
 
 ================================
 Printed "Page #9" (PDF page 10) - assets rows 16-21
@@ -160,8 +162,8 @@ Printed "Page #9" (PDF page 10) - assets rows 16-21
 * Row #21: Change amount
    Before: $4,747
    AFTER: $3,822
-  * "interest Rate" column: enter "0%" (Row #20)
-  * "Annual Income" column: enter "$0" (Row #20)
+  * "interest Rate" column: enter "0%" (Row #21)
+  * "Annual Income" column: enter "$0" (Row #21)
 
 ================================
 Printed "Page #10" (PDF page 11) - PART 5
@@ -181,7 +183,7 @@ Printed "Page #11" (PDF page 12) - PART 6
 
 
 ================================
-(PDF page 14)
+(PDF page 14) Page Title "Househould Demographics" (Bottom of page says "Page 1 of 3")
 ================================
 * "Household Relationship" (column #3):
    INCORRECT: "RENTER"

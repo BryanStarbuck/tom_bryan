@@ -122,7 +122,7 @@ T(6, 42,  323, '0', 10)                 # salary
 box_check(7, 33, 230)                   # "I/We have assets"
 X(7, NO,  330)                          # 1. RVs/boats/collections
 T(7, HHN, 428, '1', 10)                 # 2. HH# column
-X(7, NO,  428)                          # 2. cash on hand -> NO this time
+X(7, YES, 428)                          # 2. cash on hand (Yes, as last time)
 T(7, 403, 428, '2,600', 10)
 T(7, 470, 428, '0', 10)
 T(7, 528, 428, '0', 10)
@@ -144,7 +144,7 @@ X(7, NO,  700)                          # 5. internet-based assets
 
 # =============================================== template p8  (scan page_07)
 T(8, HHN, 220, '1', 10)                 # 6. HH# column
-X(8, YES, 220)                          # 6. debit card not tied to an account
+X(8, NO,  220)                          # 6. debit card -> NO this time
 T(8, 150, 261, 'BANK OF AMERICA', 9)
 T(8, 300, 261, '3799', 9)
 T(8, 403, 253, '0', 10)
@@ -174,7 +174,8 @@ X(10, YES, 665)                         # 21. real estate property
 T(10, 140, 662, '1238 HERITAGE RANCH RD', 9)
 T(10, 140, 676, 'SAN JACINTO, CA 92583', 9)
 T(10, 402, 668, '118,500', 10)
-T(10, 527, 668, '0', 10)
+T(10, 470, 668, '0%', 10)               # 21. interest rate
+T(10, 528, 668, '0', 10)                # 21. annual income
 circle(10, 494, 714, 530, 733)          # "Yes" - assets exceed $50,000
 
 # =============================================== template p11 (scan page_10)
@@ -189,10 +190,10 @@ T(13, 205, 596, 'BRYAN T. STARBUCK   SON   425 949-6801', 10)
 
 # =============================================== template p14 (scan page_13)
 T(14, 58,  256, 'THOMAS R. STARBUCK', 9)
-T(14, 215, 256, 'RENTER', 9)
+T(14, 215, 256, 'Head of Household', 8)
 T(14, 340, 256, 'WHITE', 9)
 T(14, 430, 256, 'Prefer not to say', 8)
-T(14, 505, 256, 'NO', 9)
+T(14, 505, 256, 'Not Disabled', 8)
 # signature + date left blank for HelloSign
 
 # =============================================== template p16 (scan page_15)
