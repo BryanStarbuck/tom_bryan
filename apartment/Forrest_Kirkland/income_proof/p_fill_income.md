@@ -133,6 +133,10 @@ Printed "Page #9" (PDF page 10) - assets rows 16-21
   put "1" in the first "HH#" column (column #1).
 * Row #21 Real Estate Property: put "1" in the first "HH#" column.
 
+* Row #21: Change amount
+   Before: $4,747
+   AFTER: $3,822
+
 ================================
 Printed "Page #10" (PDF page 11) - PART 5
 ================================

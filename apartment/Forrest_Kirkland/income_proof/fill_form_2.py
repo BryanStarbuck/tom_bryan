@@ -165,7 +165,7 @@ X(10, NO,  345)
 X(10, NO,  445)
 X(10, YES, 575)                         # 20. tax refund
 T(10, HHCOL, 575, '1', 10)              # HH# row 20
-T(10, 402, 617, '4,747', 10)
+T(10, 402, 617, '3,822', 10)
 X(10, YES, 665)                         # 21. real estate property
 T(10, HHCOL, 665, '1', 10)              # HH# row 21
 T(10, 140, 662, '1238 HERITAGE RANCH RD', 9)
@@ -215,7 +215,7 @@ doc.save(OUT, deflate=True)
 print('wrote', OUT, len(doc), 'pages')
 print('-' * 40)
 print('REMINDERS (attachments still needed):')
-print(' * Bank statement proving the $4,747 tax refund deposit')
-print('   -> ../Bank/BoA_Bank_statement.pdf')
+print(' * Bank statement proving the $3,822 tax refund deposit')
+print('   -> Tax_Refund.pdf (BoA wire-in 01/22/2026) / ../Bank/BoA_Bank_statement.pdf')
 print(' * Cash on Hand affidavit for the $2,600 cash amount')
 print('-' * 40)
