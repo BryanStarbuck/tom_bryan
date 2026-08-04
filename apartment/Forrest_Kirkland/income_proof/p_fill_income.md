@@ -30,10 +30,21 @@ BANK_STATEMENT is file {ROOT_DIR}/Bank/BoA_Bank_statement.pdf
 DAD_INFO is file {ROOT_DIR}/dad_info.txt
   * Background facts about Tom (Thomas R. Starbuck) if a value is needed.
 
+BACKUP_DIR dir is {OUT_DIR}/backup/
+
 ============================================================
 HOW TO RUN
 ============================================================
 
+* BACKUP STEP (do this FIRST, before generating anything):
+  * If {OUTPUT_PDF} already exists, move it aside into {BACKUP_DIR} so the
+    old run is never lost. Create {BACKUP_DIR} if missing.
+  * If a file with the same name already sits in {BACKUP_DIR}, rename the
+    one being moved by appending the file's last-modified date-time stamp
+    (for example filled_out_income_2026-08-04_09-15-00.pdf) so nothing in
+    the backup directory is ever overwritten.
+  * After this step the output location must be empty so the new run
+    writes to a clean path.
 * Copy {PREV_SCRIPT} to a new script inside {INCOME_DIR} (for example
   fill_form_2.py). Keep the old script untouched.
 * Change OUT in the script to {OUTPUT_PDF}. Create {OUT_DIR} if missing.
@@ -70,7 +81,7 @@ CHANGES vs LAST TIME
 Property: Woodlands At Forbes Lake
 
 ================================
-Cover / checklist page (PDF Page #2 area, the packet checklist)
+Cover / checklist page (PDF Page #1 area, the packet checklist)
 ================================
 * Add 4 check marks in the boxes for:
   * "Household Eligibility Certification"
@@ -84,6 +95,15 @@ Cover / checklist page (PDF Page #2 area, the packet checklist)
 
 * COMMISSION SPECIAL-NEEDS section:
   * [x] Disability Status Certification
+
+* "Property Name":
+   INCORRECT: (Empty)
+   CORRECT: Woodlands At Forbes Lake
+
+* "Resident Name":
+   INCORRECT: (Empty)
+   CORRECT: Tom Starbuck
+
 
 ================================
 Printed "Page #1" (PDF page 2) - HEA Page 1
@@ -112,6 +132,7 @@ Printed "Page #3" (PDF page 4) - income rows 14-19
 Printed "Page #6" (PDF page 7) - assets rows 1-5
 ================================
 * Row #2 Cash on Hand: put "1" in the first "HH#" column (column #1).
+  * "X" in the "NO" column.  Not the "Yes" column.
 * Row #3 Checking Account(s):
   * Put "1" in the first "HH#" column.
   * Column #4 (interest rate): change FROM 0% TO 1.96%
@@ -131,11 +152,16 @@ Printed "Page #9" (PDF page 10) - assets rows 16-21
 ================================
 * Row #20 "Have you received a tax refund in the last 12 months":
   put "1" in the first "HH#" column (column #1).
+  * "interest Rate" column: enter "0%" (Row #20)
+  * "Annual Income" column: enter "$0" (Row #20)
+
 * Row #21 Real Estate Property: put "1" in the first "HH#" column.
 
 * Row #21: Change amount
    Before: $4,747
    AFTER: $3,822
+  * "interest Rate" column: enter "0%" (Row #20)
+  * "Annual Income" column: enter "$0" (Row #20)
 
 ================================
 Printed "Page #10" (PDF page 11) - PART 5
@@ -152,6 +178,20 @@ Printed "Page #11" (PDF page 12) - PART 6
 ================================
 * Keep the X on option box #1 as last time. Dad will SIGN in Box #1 later
   via HelloSign - leave any signature area there empty.
+
+
+================================
+(PDF page 14)
+================================
+* "Household Relationship" (column #3):
+   INCORRECT: "RENTER"
+   CORRECT: "Head of Household"
+
+* "Disability Status*" (column #6):
+   INCORRECT: "No"
+   CORRECT: "Not Disabled"
+
+
 
 ============================================================
 FOLLOW-UPS / ATTACHMENTS (do not put on the form; note for Bryan)
