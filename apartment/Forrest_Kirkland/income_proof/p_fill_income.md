@@ -116,7 +116,7 @@ Printed "Page #2" (PDF page 3) - income rows 1-13
 ================================
 * Row #7 (Social Security retirement, the row marked YES last time):
   * Put "1" in the first column, the "HH#" column, for row #7.
-  * Column #3 amount: change FROM $1,291.70 (monthly) TO $15,500 (annual).
+  * Column #3 amount: change FROM $1,291.70 (monthly) TO $15,500.40 (annual).  (Don't forget the $0.40 at the end of $15,500.40)
 
 ================================
 Printed "Page #3" (PDF page 4) - income rows 14-19
@@ -131,22 +131,26 @@ Printed "Page #3" (PDF page 4) - income rows 14-19
 ================================
 Printed "Page #6" (PDF page 7) - assets rows 1-5
 ================================
-* Row #2 Cash on Hand: put "1" in the first "HH#" column (column #1).
+* Row #2 Cash on Hand
+  * Do not put anything on this row. Leave it all empty
+
 * Row #3 Checking Account(s):
   * Put "1" in the first "HH#" column.
-  * Column #4 (interest rate): change FROM 0% TO 1.96%
-  * Column #5 (income from asset): change FROM $0 TO $93.72
+  * Column #4 (interest rate): change TO 0% 
+  * Column #5 (Annual Income, the far right column): $0.00 
 * Row #4 Savings Account(s):
   * Put "1" in the first "HH#" column.
-  * Column #4 (interest rate): change FROM 0% TO 3.961%
-  * Column #5 (income from asset): change FROM $0 TO $3,246.69
+  * Column #4 (interest rate): change FROM 0% TO 0.04%
+  * Column #5 (income from asset): change FROM $0 TO $32.79
 
 ================================
 Printed "Page #7" (PDF page 8) - assets rows 6-10
 ================================
-* Row #6 Debit Card(s): put "1" in the first "HH#" column (column #1).
+* Row #6 Debit Card(s): 
   * "X" in the "NO" column.  Not the "Yes" column.
-
+  * Besides the "X" in "No" column, leave all other values empty. 
+  * Remove the "Bank of America" under "Bank Name #1"
+  * Remove "Last 4 Digits" value. "3799"
 
 
 ================================

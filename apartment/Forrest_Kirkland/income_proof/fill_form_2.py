@@ -86,7 +86,7 @@ rows_p3 = [(268, NO), (325, NO), (386, NO), (410, NO), (432, NO), (466, NO),
 for y, col in rows_p3:
     X(3, col, y + 9)
 T(3, HHN, 511, '1', 10)                # 7. HH# column
-T(3, 468, 510, '15,500', 10)           # 7. Social Security retirement (ANNUAL)
+T(3, 462, 510, '15,500.40', 10)        # 7. Social Security retirement (ANNUAL)
 
 # =============================================== template p4  (scan page_03)
 X(4, NO,  202)                          # 14. child support
@@ -121,35 +121,25 @@ T(6, 42,  323, '0', 10)                 # salary
 # =============================================== template p7  (scan page_06)
 box_check(7, 33, 230)                   # "I/We have assets"
 X(7, NO,  330)                          # 1. RVs/boats/collections
-T(7, HHN, 428, '1', 10)                 # 2. HH# column
-X(7, YES, 428)                          # 2. cash on hand (Yes, as last time)
-T(7, 403, 428, '2,600', 10)
-T(7, 470, 428, '0', 10)
-T(7, 528, 428, '0', 10)
+# 2. cash on hand - left completely empty this time
 T(7, HHN, 460, '1', 10)                 # 3. HH# column
 X(7, YES, 460)                          # 3. checking
 T(7, 150, 492, 'BANK OF AMERICA', 9)
 T(7, 300, 492, '184012443', 9)
 T(7, 403, 493, '4,781.50', 10)
-T(7, 466, 493, '1.96', 10)             # interest rate (was 0)
-T(7, 534, 493, '93.72', 10)             # income from asset (was 0)
+T(7, 466, 493, '0%', 10)                # interest rate
+T(7, 534, 493, '0.00', 10)              # annual income from asset
 T(7, HHN, 590, '1', 10)                 # 4. HH# column
 X(7, YES, 590)                          # 4. savings
 T(7, 150, 615, 'BANK OF AMERICA', 9)
 T(7, 300, 615, '3251 3920 3961', 9)
 T(7, 403, 617, '81,966.33', 10)
-T(7, 460, 617, '3.961', 10)            # interest rate
-T(7, 534, 617, '3,246.69', 10)          # income from asset
+T(7, 460, 617, '0.04%', 10)             # interest rate
+T(7, 534, 617, '32.79', 10)             # annual income from asset
 X(7, NO,  700)                          # 5. internet-based assets
 
 # =============================================== template p8  (scan page_07)
-T(8, HHN, 220, '1', 10)                 # 6. HH# column
-X(8, NO,  220)                          # 6. debit card -> NO this time
-T(8, 150, 261, 'BANK OF AMERICA', 9)
-T(8, 300, 261, '3799', 9)
-T(8, 403, 253, '0', 10)
-T(8, 470, 253, '0', 10)
-T(8, 528, 253, '0', 10)
+X(8, NO,  220)                          # 6. debit card -> NO; all other values empty
 X(8, NO, 345)                           # 7. brokerage
 X(8, NO, 460)                           # 8. capital investments
 X(8, NO, 525)                           # 9. annuities
