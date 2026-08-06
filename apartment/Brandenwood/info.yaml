@@ -1,0 +1,57 @@
+apartment:
+  name: Brandenwood Senior Apartments
+  type: Independent living, senior-only (62+), affordable/income-restricted (LIHTC)
+  address: 14520 NE 40th St, Bellevue, WA 98007
+  phone: (425) 885-6134
+  email: brandenwoodseniorapts@cirrusami.com
+  website: https://www.brandenwood.com/
+  management: Cirrus Asset Management (formerly Guardian Management)
+  manager_contact: Debbie Holeman
+
+location:
+  city: Bellevue, WA (Crossroads / Bel-Red area, near Microsoft Redmond campus)
+  distance_from_redmond: Within Tom's ~20-minute drive target (Bellevue 98007, borders Redmond)
+
+ratings:
+  google: 3.7 / 5
+  caring_com: reviewed on Caring.com (2 reviews, one 5-star from 2021 visit)
+  senioradvice: listed, no reviews yet
+  us_news: listed under Best Senior Living (independent living)
+
+units:
+  total: 60
+  one_bedroom:
+    count: 46
+    size_sqft: 600
+    rent_range: $1,179 - $1,591
+  two_bedroom:
+    count: 14
+    size_sqft: 700
+    rent_range: $1,500 - $1,905
+
+eligibility:
+  age_requirement: 62+
+  income_restricted: true
+  program: WSHFC Low-Income Housing Tax Credit (LIHTC)
+  income_limits: 45% and 60% of King County area median income (income MAXIMUMS, not minimums)
+  limit_60pct_1person_2025: ~$66,000
+  limit_45pct_1person_2025: ~$49,500
+  tom_income: $65,000
+  tom_qualifies: LIKELY for 60% units (just under the ~$66k cap); NOT for 45% units
+  risk: Margin is only ~$1,000 - any extra income (interest, pension COLA) could disqualify; limits change yearly
+  section_8: Vouchers accepted
+  security_deposit: $375
+  screening_fee: $25 per adult
+  wait_time: ~1-3 months
+
+pets:
+  allowed: Dogs and cats under 25 lbs
+  deposit: $300
+
+amenities:
+  - Non-smoking property
+  - Elevator
+  - Community room
+  - Laundry facilities
+  - Wheelchair-accessible units
+  - Near transit with front-door pickup service
