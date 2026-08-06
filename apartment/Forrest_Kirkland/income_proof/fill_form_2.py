@@ -121,7 +121,7 @@ T(6, 42,  323, '0', 10)                 # salary
 # =============================================== template p7  (scan page_06)
 box_check(7, 33, 230)                   # "I/We have assets"
 X(7, NO,  330)                          # 1. RVs/boats/collections
-# 2. cash on hand - left completely empty this time
+X(7, NO, 428)                           # 2. cash on hand -> NO; everything else empty
 T(7, HHN, 460, '1', 10)                 # 3. HH# column
 X(7, YES, 460)                          # 3. checking
 T(7, 150, 492, 'BANK OF AMERICA', 9)
