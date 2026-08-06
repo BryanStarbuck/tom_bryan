@@ -132,7 +132,8 @@ Printed "Page #3" (PDF page 4) - income rows 14-19
 Printed "Page #6" (PDF page 7) - assets rows 1-5
 ================================
 * Row #2 Cash on Hand
-  * Do not put anything on this row. Leave it all empty
+  * Put "x" in the first "NO" column.
+  * Do not put anything else on this row (except "NO" Column)
 
 * Row #3 Checking Account(s):
   * Put "1" in the first "HH#" column.
@@ -197,6 +198,11 @@ Printed "Page #11" (PDF page 12) - PART 6
    INCORRECT: "No"
    CORRECT: "Not Disabled"
 
+
+================================
+(PDF page 16) Page Title "Househould Demographics" (Bottom of page says "Page 3 of 3")
+================================
+* Don't enter anything on this page.
 
 
 ============================================================
